@@ -1,6 +1,6 @@
 # NLP For Thai
 
-It's Thai NLP homepage. All is Open Source.
+It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ## Software
 
