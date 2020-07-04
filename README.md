@@ -30,3 +30,9 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 #### Python
 - [Easy OCR](https://github.com/JaidedAI/EasyOCR): Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai. (Apache License 2.0)
+
+### Spell Check
+
+#### C/C++
+
+- [Hunspell](http://hunspell.github.io/) : Hunspell is the spell checker of LibreOffice, OpenOffice.org, Mozilla Firefox 3 & Thunderbird, Google Chrome. (GNU Lesser General Public License and Mozilla Public License)
