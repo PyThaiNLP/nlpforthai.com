@@ -6,7 +6,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Word Segmentation
 
-| Name                                                |                                                              | Status   | Language       | License                    |
+| Name                                                | Description                                                  | Status   | Language       | License                    |
 | --------------------------------------------------- | ------------------------------------------------------------ | -------- | -------------- | -------------------------- |
 | [libthai](https://github.com/tlwg/libthai)          | is a set of Thai language support routines aimed to ease developers' tasks to incorporate Thai language support in their applications. | active   | C/C++          | LGPL-2.1 License           |
 | [SWATH](https://github.com/tlwg/swath)              | Smart Word Analysis for THai                                 | active   | C/C++          | GPL-2.0 License            |
@@ -19,19 +19,27 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Part Of Speech
 
-| Name                                                |                         | Status | Language   | License            |
+| Name                                                | Description             | Status | Language   | License            |
 | --------------------------------------------------- | ----------------------- | ------ | ---------- | ------------------ |
-| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. |        | Python 3.X | Apache License 2.0 |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0 |
 
 ### OCR
 
-| Name                                                        |                                                              | Status | Language   | License            |
+| Name                                                        | Description                                                  | Status | Language   | License            |
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
-| [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) | Tesseract Open Source OCR Engine                             |        | C/C++      | Apache License 2.0 |
-| [Easy OCR](https://github.com/JaidedAI/EasyOCR)             | Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai. |        | Python 3.X | Apache License 2.0 |
+| [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) | Tesseract Open Source OCR Engine                             | active | C/C++      | Apache License 2.0 |
+| [Easy OCR](https://github.com/JaidedAI/EasyOCR)             | Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai. | active | Python 3.X | Apache License 2.0 |
 
 ### Spell Check
 
-#### C/C++
+| Name                                   | Description                                                  | Status | Language | License                                                      |
+| -------------------------------------- | ------------------------------------------------------------ | ------ | -------- | ------------------------------------------------------------ |
+| [Hunspell](http://hunspell.github.io/) | Hunspell is the spell checker of LibreOffice, OpenOffice.org, Mozilla Firefox 3 & Thunderbird, Google Chrome. | active | C/C++    | GNU Lesser General Public License and Mozilla Public License |
 
-- [Hunspell](http://hunspell.github.io/) : Hunspell is the spell checker of LibreOffice, OpenOffice.org, Mozilla Firefox 3 & Thunderbird, Google Chrome. (GNU Lesser General Public License and Mozilla Public License)
+### Dependency parser
+
+| Name                                                      | Description                                                  | Status | Language   | License     |
+| --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ----------- |
+| [spaCy-Thai](https://github.com/KoichiYasuoka/spaCy-Thai) | Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies. | active | Python 3.X | MIT License |
+
+### 
