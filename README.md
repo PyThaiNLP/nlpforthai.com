@@ -16,6 +16,13 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | [DeepCut](https://github.com/rkcosmos/deepcut)      | A Thai word tokenization library using Deep Neural Network.  | active   | Python 3.X     | MIT License                |
 | [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit                                        | active   | Python 3.X     | BSD License (BSD-3-Clause) |
 | [KUCut](https://github.com/Thanabhat/KUCut)         | Thai word segmentor that is difference from existing segmentor such as CTTEX or SWATH. | deactive | Python 2.4-2.5 | GPL-2.0 License            |
+| [SEFR CUT](https://github.com/mrpeerat/SEFR_CUT)    | Stacked Ensemble Filter and Refine for Word Segmentation     | active   | Python 3.X     | MIT License                |
+
+### Syllable Segmenter
+
+| Name                                   | Description                     | Status | Language   | License            |
+| -------------------------------------- | ------------------------------- | ------ | ---------- | ------------------ |
+| [ssg](https://github.com/ponrawee/ssg) | CRF syllable segmenter for Thai | active | Python 3.X | Apache License 2.0 |
 
 ### Part Of Speech
 
