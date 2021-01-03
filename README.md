@@ -50,4 +50,22 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ----------- |
 | [spaCy-Thai](https://github.com/KoichiYasuoka/spaCy-Thai) | Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies. | active | Python 3.X | MIT License |
 
-### 
+## Corpus/Data set
+
+### Word Segmentation Corpus
+
+| Name                                           | Description                                                  | Size                                                         | License                                    | Creator                                                      | Download                                                     |
+| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| BEST I (BEST 2009)                             | Benchmark for Enhancing the Standard of Thai language processing |                                                              | CC BY-SA-NC 4.0                            | NECTEC                                                       | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) and [Mirror from @korakot](https://github.com/korakot/corpus/tree/main/BEST) |
+| LST20 Corpus                                   | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                                                       | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Wisesight Samples with Word Tokenization Label | This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full Wisesight Sentiment Corpus. | 160 sentences (wisesight-160) and 1,000 sentences (wiseight-1000) | CC0-1.0 License                            | Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and Attapol Rutherford | [GitHub](https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization) |
+| Thai National Historical Corpus (TNHC)         | texts from Thai National Historical Corpus, stored by lines (manually tokenized). | 47 documents, 756,478 lines, 13,361,142 characters           |                                            | Jitkapat Sawatphol                                           | [GitHub](https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0) |
+| Orchid Corpus                                  | Thai partof-speech (POS) tagged corpus                       |                                                              |                                            | NECTEC                                                       |                                                              |
+
+### Parallel Corpus
+
+| Name              | Description                                                  | Size                    | License      | Creator                                                      | Download                                                     |
+| ----------------- | ------------------------------------------------------------ | ----------------------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| TALPCo            | TUFS Asian Language Parallel Corpus                          | 1,327 sent              | CC BY 4.0    | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
+| scb-mt-en-th-2020 | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs | CC BY-SA 4.0 | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
+
