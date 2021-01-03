@@ -106,7 +106,20 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Speech Synthesis
 
-| Name           | Description                               | Size        | License         | Creator | Download                                                     |
-| -------------- | ----------------------------------------- | ----------- | --------------- | ------- | ------------------------------------------------------------ |
-| TSync-1 Corpus | Thai speech synthesis corpus from  NECTEC | 13.94 hours | CC BY-SA-NC 3.0 | NECTEC  | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/TSync1Corpus.zip) |
-| TSync-2 Corpus | Thai speech synthesis corpus from  NECTEC | 5hr 25m     | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) and [Mirror from @korakot](https://github.com/korakot/corpus/releases/download/v1.0/AIFORTHAI-TSync2Corpus.zip) |
+| Name           | Description                                                 | Size    | License         | Creator | Download                                                     |
+| -------------- | ----------------------------------------------------------- | ------- | --------------- | ------- | ------------------------------------------------------------ |
+| TSync-1 Corpus | Thai speech synthesis corpus from  NECTEC (not full corpus) | 6 hours | CC BY-SA-NC 3.0 | NECTEC  | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/TSync1Corpus.zip) |
+| TSync-2 Corpus | Thai speech synthesis corpus from  NECTEC (not full corpus) | 5hr 25m | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) and [Mirror from @korakot](https://github.com/korakot/corpus/releases/download/v1.0/AIFORTHAI-TSync2Corpus.zip) |
+
+### Speech Recognition
+
+| Name                | Description                                 | Size            | License         | Creator | Download                                                     |
+| ------------------- | ------------------------------------------- | --------------- | --------------- | ------- | ------------------------------------------------------------ |
+| Lotus               | Thai Speech Recognition corpus from  NECTEC |                 | CC BY-SA-NC 3.0 | NECTEC  | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/TSync1Corpus.zip) |
+| Common Voice Corpus | Common Voice Corpus from mozilla            | 8 hours (valid) | CC0-1.0 License | mozilla | [Common Voice](https://commonvoice.mozilla.org/th/datasets)  |
+
+### Plagiarism
+
+| Name            | Description                                                  | Size | License         | Creator | Download                                                     |
+| --------------- | ------------------------------------------------------------ | ---- | --------------- | ------- | ------------------------------------------------------------ |
+| Thai Plagiarism | Thai Plagiarism Detection http://copycatch.in.th/thai-plagiarism-task.html |      | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
