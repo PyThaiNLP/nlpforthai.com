@@ -8,6 +8,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 | Name                                                | Description                                                  | Status   | Language       | License                    |
 | --------------------------------------------------- | ------------------------------------------------------------ | -------- | -------------- | -------------------------- |
+| [ICU](http://site.icu-project.org/home)             | ICU - International Components for Unicode                   | active   | C/C++/Java     | Unicode License            |
 | [libthai](https://github.com/tlwg/libthai)          | is a set of Thai language support routines aimed to ease developers' tasks to incorporate Thai language support in their applications. | active   | C/C++          | LGPL-2.1 License           |
 | [SWATH](https://github.com/tlwg/swath)              | Smart Word Analysis for THai                                 | active   | C/C++          | GPL-2.0 License            |
 | [AttaCut](https://github.com/PyThaiNLP/attacut)     | Fast and Reasonably Accurate Word Tokenizer for Thai.        | active   | Python 3.X     | MIT License                |
