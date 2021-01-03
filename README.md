@@ -86,9 +86,10 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### OCR Dataset
 
-| Name                  | Description                                | Size | License    | Creator                 | Download                                                   |
-| --------------------- | ------------------------------------------ | ---- | ---------- | ----------------------- | ---------------------------------------------------------- |
-| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |      | CC BY  4.0 | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1) |
+| Name                  | Description                                | Size | License         | Creator                 | Download                                                     |
+| --------------------- | ------------------------------------------ | ---- | --------------- | ----------------------- | ------------------------------------------------------------ |
+| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |      | CC BY  4.0      | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1)   |
+| Thai OCR              |                                            |      | CC BY-SA-NC 3.0 | NECTEC                  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
 
 ### Text Summarization
 
