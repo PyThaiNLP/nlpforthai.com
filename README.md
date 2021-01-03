@@ -102,3 +102,10 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | ------- | ------------------------------------------------------------ | ---------------------------------------------- | --------------- | -------- | ------------------------------------------------------------ |
 | XQuAD   | XQuAD (Cross-lingual Question Answering Dataset) is a benchmark dataset for evaluating cross-lingual question answering performance. | 240 paragraphs and 1,190 question-answer pairs | CC BY-SA  4.0   | DeepMind | [GitHub](https://github.com/deepmind/xquad)                  |
 | Thai QA | Question answering program from Thai Wikipedia.              | 4,000 question-answer pairs                    | CC BY-SA-NC 3.0 | NECTEC   | Dataset: [aiforthai](https://aiforthai.in.th/corpus.php) (registration required), wiki: [copycatch](http://www.copycatch.in.th/documents-nsc.tar.gz), Sample data set: [copycatch](http://www.copycatch.in.th/qa-output100.json) |
+
+### Speech Synthesis
+
+| Name           | Description                               | Size        | License         | Creator | Download                                                     |
+| -------------- | ----------------------------------------- | ----------- | --------------- | ------- | ------------------------------------------------------------ |
+| TSync-1 Corpus | Thai speech synthesis corpus from  NECTEC | 13.94 hours | CC BY-SA-NC 3.0 | NECTEC  | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/TSync1Corpus.zip) |
+| TSync-2 Corpus | Thai speech synthesis corpus from  NECTEC | 5hr 25m     | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) and [Mirror from @korakot](https://github.com/korakot/corpus/releases/download/v1.0/AIFORTHAI-TSync2Corpus.zip) |
