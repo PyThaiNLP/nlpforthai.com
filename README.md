@@ -63,6 +63,12 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Thai National Historical Corpus (TNHC)         | texts from Thai National Historical Corpus, stored by lines (manually tokenized). | 47 documents, 756,478 lines, 13,361,142 characters           |                                            | Jitkapat Sawatphol                                           | [GitHub](https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0) |
 | Orchid Corpus                                  | Thai partof-speech (POS) tagged corpus                       |                                                              |                                            | NECTEC                                                       |                                                              |
 
+### Natural Language Inference
+
+| Name | Description                                                  | Size                           | License      | Creator           | Download                                           |
+| ---- | ------------------------------------------------------------ | ------------------------------ | ------------ | ----------------- | -------------------------------------------------- |
+| XNLI | The Cross-lingual Natural Language Inference (XNLI) corpus is a crowd-sourced collection of 5,000 test and 2,500 dev pairs for the MultiNLI corpus. The pairs are annotated with textual entailment and translated into 14 languages: French, Spanish, German, Greek, Bulgarian, Russian, Turkish, Arabic, Vietnamese, Thai, Chinese, Hindi, Swahili and Urdu. | 5,000 test and 2,500 dev pairs | CC BY-NC 4.0 | Facebook Research | [GitHub](https://github.com/facebookresearch/XNLI) |
+
 ### Parallel Corpus
 
 | Name              | Description                                                  | Size                    | License      | Creator                                                      | Download                                                     |
@@ -77,3 +83,22 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | prachathai-67k      | News Article Corpus from Prachathai.com                      | 67,889 articles wtih 51,797 tags | 12     | CC BY 4.0        | @lukkiddd and @cstorm125                     | [GitHub](https://github.com/PyThaiNLP/prachathai-67k)      |
 | wisesight sentiment | Social media messages in Thai language with sentiment label (positive, neutral, negative, question). | 26,737 messages                  | 4      | CC0-1.0 License  | Arthit Suriyawongkul,  Ekapol Chuangsuwanich | [GitHub](https://github.com/PyThaiNLP/wisesight-sentiment) |
 | wongnai corpus      | This project is a collection of Wongnai's datasets which are mostly in Thai language. | 500K words labeled               | 5      | LGPL-3.0 License | wongnai                                      | [GitHub](https://github.com/wongnai/wongnai-corpus)        |
+
+### OCR Dataset
+
+| Name                  | Description                                | Size | License    | Creator                 | Download                                                   |
+| --------------------- | ------------------------------------------ | ---- | ---------- | ----------------------- | ---------------------------------------------------------- |
+| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |      | CC BY  4.0 | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1) |
+
+### Text Summarization
+
+| Name    | Description                                      | Size                      | License     | Creator               | Download                                                  |
+| ------- | ------------------------------------------------ | ------------------------- | ----------- | --------------------- | --------------------------------------------------------- |
+| ThaiSum | The largest dataset for Thai text summarization. | 350,000 articles (2.9 GB) | MIT Licence | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
+
+### Question Answering
+
+| Name    | Description                                                  | Size                                           | License         | Creator  | Download                                                     |
+| ------- | ------------------------------------------------------------ | ---------------------------------------------- | --------------- | -------- | ------------------------------------------------------------ |
+| XQuAD   | XQuAD (Cross-lingual Question Answering Dataset) is a benchmark dataset for evaluating cross-lingual question answering performance. | 240 paragraphs and 1,190 question-answer pairs | CC BY-SA  4.0   | DeepMind | [GitHub](https://github.com/deepmind/xquad)                  |
+| Thai QA | Question answering program from Thai Wikipedia.              | 4,000 question-answer pairs                    | CC BY-SA-NC 3.0 | NECTEC   | Dataset: [aiforthai](https://aiforthai.in.th/corpus.php) (registration required), wiki: [copycatch](http://www.copycatch.in.th/documents-nsc.tar.gz), Sample data set: [copycatch](http://www.copycatch.in.th/qa-output100.json) |
