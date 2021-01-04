@@ -114,6 +114,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | wongnai corpus                | This project is a collection of Wongnai's datasets which are mostly in Thai language. | 500K words labeled                           | 5      | LGPL-3.0 License | wongnai                                                      | [GitHub](https://github.com/wongnai/wongnai-corpus)          |
 | Toxicity in Thai Tweet Corpus | Toxicity in Thai Tweet Corpus                                | 3,300 messages                               | 2      | CC BY-NC 4.0     | Tokyo Metropolitan University Natural Language Processing Group | [GitHub](https://github.com/tmu-nlp/ThaiToxicityTweetCorpus) |
 | Thai-Clickbait                | The dataset for Thai Clickbait classification                | train: 37,376 messages, test: 9,344 messages | 1      | MIT License      | @9meo at GitHub                                              | [GitHub](https://github.com/9meo/Thai-Clickbait)             |
+| sentiment_analysis_thai       | Thai sentiment analysis from @JagerV3                        |                                              | 2      | ?                | @JagerV3 at GitHub                                           | [GitHub](https://github.com/JagerV3/sentiment_analysis_thai) |
 
 ### OCR Dataset
 
@@ -159,9 +160,22 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Text Corpus
 
-| Name                     | Description                                                  | Size | License       | Creator                     | Download                                                     |
-| ------------------------ | ------------------------------------------------------------ | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
-| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932              |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
-| Thai Law                 | Thai Law Dataset (Act of Parliament)                         |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
-| IO-LM                    | Learn how to talk like an Information-Operation-er           |      |               |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
-| HC corpora               | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |      |               |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
+| Name                     | Description                                                  | Size      | License         | Creator                     | Download                                                     |
+| ------------------------ | ------------------------------------------------------------ | --------- | --------------- | --------------------------- | ------------------------------------------------------------ |
+| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932              |           | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
+| Thai Law                 | Thai Law Dataset (Act of Parliament)                         |           | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
+| IO-LM                    | Learn how to talk like an Information-Operation-er           |           |                 |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
+| HC corpora               | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |           |                 |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
+| thai-joke-corpus         | Thai jokes scraped from 4 Thai jokes facebook pages collected by iApp Technology Co, Ltd. | 449 Jokes | GPL-3.0 License | iApp Technology Co, Ltd     | [GitHub](https://github.com/iapp-technology/thai-joke-corpus) |
+
+## Tools
+
+### Word Segmentation tools
+
+| Name   | Description                                                  | License | Creator            | Download                                     |
+| ------ | ------------------------------------------------------------ | ------- | ------------------ | -------------------------------------------- |
+| MudYom | MudYom is a module for pre/post-processing text. It combines, aka มัด, words that should be together into one token. This process is done according to a user-defined dictionary. |         | Pattarawat Chormai | [GitHub](https://github.com/heytitle/mudyom) |
+
+## Pre-trained models/Models
+
+... [WIP]
