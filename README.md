@@ -89,10 +89,11 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Parallel Corpus
 
-| Name              | Description                                                  | Size                    | License      | Creator                                                      | Download                                                     |
-| ----------------- | ------------------------------------------------------------ | ----------------------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| TALPCo            | TUFS Asian Language Parallel Corpus                          | 1,327 sent              | CC BY 4.0    | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
-| scb-mt-en-th-2020 | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs | CC BY-SA 4.0 | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
+| Name                     | Description                                                  | Size                    | License         | Creator                                                      | Download                                                     |
+| ------------------------ | ------------------------------------------------------------ | ----------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| TALPCo                   | TUFS Asian Language Parallel Corpus                          | 1,327 sent              | CC BY 4.0       | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
+| scb-mt-en-th-2020        | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
+| Thai Lao Parallel corpus | Thai Lao Parallel corpus                                     |                         | CC0-1.0 License | Wannaphong Phatthiyaphaibu                                   | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
 
 ### Text Classification
 
@@ -143,3 +144,10 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Name            | Description                                                  | Size | License         | Creator | Download                                                     |
 | --------------- | ------------------------------------------------------------ | ---- | --------------- | ------- | ------------------------------------------------------------ |
 | Thai Plagiarism | Thai Plagiarism Detection http://copycatch.in.th/thai-plagiarism-task.html |      | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+
+### Text Corpus
+
+| Name                     | Description                                     | Size | License       | Creator                     | Download                                                     |
+| ------------------------ | ----------------------------------------------- | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
+| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932 |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
+| Thai Law                 | Thai Law Dataset (Act of Parliament)            |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
