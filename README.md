@@ -55,7 +55,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ----------- |
 | [spaCy-Thai](https://github.com/KoichiYasuoka/spaCy-Thai) | Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies. | active | Python 3.X | MIT License |
 
-## Corpus/Data set
+## Corpus/Dataset
 
 ### Word Segmentation Corpus
 
@@ -65,7 +65,15 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | LST20 Corpus                                   | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                                                       | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
 | Wisesight Samples with Word Tokenization Label | This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full Wisesight Sentiment Corpus. | 160 sentences (wisesight-160) and 1,000 sentences (wiseight-1000) | CC0-1.0 License                            | Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and Attapol Rutherford | [GitHub](https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization) |
 | Thai National Historical Corpus (TNHC)         | texts from Thai National Historical Corpus, stored by lines (manually tokenized). | 47 documents, 756,478 lines, 13,361,142 characters           |                                            | Jitkapat Sawatphol                                           | [GitHub](https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0) |
-| Orchid Corpus                                  | Thai part of speech (POS) tagged corpus                      |                                                              |                                            | NECTEC                                                       | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
+| Orchid Corpus                                  | Thai part of speech (POS) tagged corpus                      |                                                              | CC BY-SA-NC 4.0                            | NECTEC                                                       | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
+
+### Part of Speech
+
+| Name          | Description                                                  | Size                                                         | License                                    | Creator                | Download                                                     |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
+| Orchid Corpus | Thai part of speech (POS) tagged corpus                      | 5,200 sentences                                              | CC BY-SA-NC 4.0                            | NECTEC                 | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
+| LST20 Corpus  | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                 | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| UD Thai PUD   | This is a part of the Parallel Universal Dependencies (PUD) treebanks created for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies. | 1,000 sentences                                              | CC BY-SA 3.0                               | Universal Dependencies | [GitHub](https://github.com/UniversalDependencies/UD_Thai-PUD) |
 
 ### Natural Language Inference
 
