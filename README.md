@@ -107,12 +107,13 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Text Classification
 
-| Name                          | Description                                                  | Size                             | Labels | License          | Creator                                                      | Download                                                     |
-| ----------------------------- | ------------------------------------------------------------ | -------------------------------- | ------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| prachathai-67k                | News Article Corpus from Prachathai.com                      | 67,889 articles wtih 51,797 tags | 12     | CC BY 4.0        | @lukkiddd and @cstorm125                                     | [GitHub](https://github.com/PyThaiNLP/prachathai-67k)        |
-| wisesight sentiment           | Social media messages in Thai language with sentiment label (positive, neutral, negative, question). | 26,737 messages                  | 4      | CC0-1.0 License  | Arthit Suriyawongkul,  Ekapol Chuangsuwanich                 | [GitHub](https://github.com/PyThaiNLP/wisesight-sentiment)   |
-| wongnai corpus                | This project is a collection of Wongnai's datasets which are mostly in Thai language. | 500K words labeled               | 5      | LGPL-3.0 License | wongnai                                                      | [GitHub](https://github.com/wongnai/wongnai-corpus)          |
-| Toxicity in Thai Tweet Corpus | Toxicity in Thai Tweet Corpus                                | 3,300 messages                   | 2      | CC BY-NC 4.0     | Tokyo Metropolitan University Natural Language Processing Group | [GitHub](https://github.com/tmu-nlp/ThaiToxicityTweetCorpus) |
+| Name                          | Description                                                  | Size                                         | Labels | License          | Creator                                                      | Download                                                     |
+| ----------------------------- | ------------------------------------------------------------ | -------------------------------------------- | ------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| prachathai-67k                | News Article Corpus from Prachathai.com                      | 67,889 articles wtih 51,797 tags             | 12     | CC BY 4.0        | @lukkiddd and @cstorm125                                     | [GitHub](https://github.com/PyThaiNLP/prachathai-67k)        |
+| wisesight sentiment           | Social media messages in Thai language with sentiment label (positive, neutral, negative, question). | 26,737 messages                              | 4      | CC0-1.0 License  | Arthit Suriyawongkul,  Ekapol Chuangsuwanich                 | [GitHub](https://github.com/PyThaiNLP/wisesight-sentiment)   |
+| wongnai corpus                | This project is a collection of Wongnai's datasets which are mostly in Thai language. | 500K words labeled                           | 5      | LGPL-3.0 License | wongnai                                                      | [GitHub](https://github.com/wongnai/wongnai-corpus)          |
+| Toxicity in Thai Tweet Corpus | Toxicity in Thai Tweet Corpus                                | 3,300 messages                               | 2      | CC BY-NC 4.0     | Tokyo Metropolitan University Natural Language Processing Group | [GitHub](https://github.com/tmu-nlp/ThaiToxicityTweetCorpus) |
+| Thai-Clickbait                | The dataset for Thai Clickbait classification                | train: 37,376 messages, test: 9,344 messages | 1      | MIT License      | @9meo at GitHub                                              | [GitHub](https://github.com/9meo/Thai-Clickbait)             |
 
 ### OCR Dataset
 
@@ -157,8 +158,9 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Text Corpus
 
-| Name                     | Description                                        | Size | License       | Creator                     | Download                                                     |
-| ------------------------ | -------------------------------------------------- | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
-| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932    |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
-| Thai Law                 | Thai Law Dataset (Act of Parliament)               |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
-| IO-LM                    | Learn how to talk like an Information-Operation-er |      |               |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
+| Name                     | Description                                                  | Size | License       | Creator                     | Download                                                     |
+| ------------------------ | ------------------------------------------------------------ | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
+| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932              |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
+| Thai Law                 | Thai Law Dataset (Act of Parliament)                         |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
+| IO-LM                    | Learn how to talk like an Information-Operation-er           |      |               |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
+| HC corpora               | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |      |               |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
