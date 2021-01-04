@@ -134,7 +134,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 | Name                | Description                                                  | Size            | License         | Creator                                                      | Download                                                     |
 | ------------------- | ------------------------------------------------------------ | --------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Lotus               | Thai Speech Recognition corpus from  NECTEC                  |                 | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/TSync1Corpus.zip) |
+| Lotus               | Thai Speech Recognition corpus from  NECTEC                  |                 | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/tag/v1.0) |
 | Common Voice Corpus | Common Voice Corpus from mozilla                             | 8 hours (valid) | CC0-1.0 License | mozilla                                                      | [Common Voice](https://commonvoice.mozilla.org/th/datasets)  |
 | Gowajee corpus      | The corpus was collected in the Automatic Speech Recognition class offered at Chulalongkorn University as a homework assignment. | 11 hours        | MIT License     | Ekapol Chuangsuwanich, Atiwong Suchato, Korrawe Karunratanakul, Burin Naowarat, Chompakorn CChaichot and Penpicha Sangsa-nga | [GitHub](https://github.com/ekapolc/gowajee_corpus)          |
 
