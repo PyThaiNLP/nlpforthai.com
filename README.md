@@ -78,11 +78,12 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Part of Speech
 
-| Name          | Description                                                  | Size                                                         | License                                    | Creator                | Download                                                     |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
-| Orchid Corpus | Thai part of speech (POS) tagged corpus                      | 5,200 sentences                                              | CC BY-SA-NC 4.0                            | NECTEC                 | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
-| LST20 Corpus  | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                 | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
-| UD Thai PUD   | This is a part of the Parallel Universal Dependencies (PUD) treebanks created for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies. | 1,000 sentences                                              | CC BY-SA 3.0                               | Universal Dependencies | [GitHub](https://github.com/UniversalDependencies/UD_Thai-PUD) |
+| Name                  | Description                                                  | Size                                                         | License                                    | Creator                | Download                                                     |
+| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
+| Orchid Corpus         | Thai part of speech (POS) tagged corpus                      | 5,200 sentences                                              | CC BY-SA-NC 4.0                            | NECTEC                 | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
+| LST20 Corpus          | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                 | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| UD Thai PUD           | This is a part of the Parallel Universal Dependencies (PUD) treebanks created for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies. | 1,000 sentences                                              | CC BY-SA 3.0                               | Universal Dependencies | [GitHub](https://github.com/UniversalDependencies/UD_Thai-PUD) |
+| thai-political-tweets | A small Thai political twitter dataset with UD POS tags      | 41 tweets, 965 words                                         | Unlicense License                          | Can Udomcharoenchaikit | [GitHub](https://github.com/c4n/thai-political-tweets)       |
 
 ### Treebank
 
@@ -102,7 +103,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | ------------------------ | ------------------------------------------------------------ | ----------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | TALPCo                   | TUFS Asian Language Parallel Corpus                          | 1,327 sent              | CC BY 4.0       | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
 | scb-mt-en-th-2020        | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
-| Thai Lao Parallel corpus | Thai Lao Parallel corpus                                     |                         | CC0-1.0 License | Wannaphong Phatthiyaphaibu                                   | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
+| Thai Lao Parallel corpus | Thai Lao Parallel corpus                                     |                         | CC0-1.0 License | Wannaphong Phatthiyaphaibun                                  | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
 
 ### Text Classification
 
