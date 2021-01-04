@@ -22,6 +22,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | [ThaiLMCut](https://github.com/meanna/ThaiLMCUT)             | Word Tokenizer for Thai Language based on Transfer Learning and bidirectional-LSTM | active   | Python 3.X     | MIT License                |
 | [LexTo](http://www.sansarn.com/lexto/)                       | Thai word segmentation ( Longest Matching )                  | -        | Java           | LGPLv2.1                   |
 | [sertiscorp /thai-word-segmentation](https://github.com/sertiscorp/thai-word-segmentation) | Thai word segmentation with bi-directional RNN               | -        | Python 3.X     | MIT License                |
+| [Thai Analysis Plugin for Elasticsearch](https://github.com/tlefsad/elasticsearch-analysis-thaichub2) | The Thaichub2 (thai-chub-chub) Analysis Plugin integrates the Thai word segmentation modules into Elasticsearch. | active   | Java           | Apache-2.0 License         |
 
 ### Syllable Segmenter
 
