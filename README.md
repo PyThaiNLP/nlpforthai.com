@@ -29,7 +29,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | -------------------------------------- | ------------------------------- | ------ | ---------- | ------------------ |
 | [ssg](https://github.com/ponrawee/ssg) | CRF syllable segmenter for Thai | active | Python 3.X | Apache License 2.0 |
 
- ### Sentence Segmentation
+### Sentence Segmentation
 
 | Name                                                | Description                                              | Status | Language   | License                    |
 | --------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- | -------------------------- |
