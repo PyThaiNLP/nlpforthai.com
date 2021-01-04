@@ -29,6 +29,14 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | -------------------------------------- | ------------------------------- | ------ | ---------- | ------------------ |
 | [ssg](https://github.com/ponrawee/ssg) | CRF syllable segmenter for Thai | active | Python 3.X | Apache License 2.0 |
 
+ ### Sentence Segmentation
+
+| Name                                                | Description                                              | Status | Language   | License                    |
+| --------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP.                                  | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit                                    | active | Python 3.X | BSD License (BSD-3-Clause) |
+| [BoydCut](https://github.com/BigDataRPG/BoydCut)    | Bidirectional LSTM-CNN Model for Thai Sentence Segmenter | active | Python 3.X | MIT License                |
+
 ### Part Of Speech
 
 | Name                                                | Description             | Status | Language   | License            |
@@ -147,7 +155,8 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Text Corpus
 
-| Name                     | Description                                     | Size | License       | Creator                     | Download                                                     |
-| ------------------------ | ----------------------------------------------- | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
-| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932 |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
-| Thai Law                 | Thai Law Dataset (Act of Parliament)            |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
+| Name                     | Description                                        | Size | License       | Creator                     | Download                                                     |
+| ------------------------ | -------------------------------------------------- | ---- | ------------- | --------------------------- | ------------------------------------------------------------ |
+| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932    |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
+| Thai Law                 | Thai Law Dataset (Act of Parliament)               |      | Public Domain | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
+| IO-LM                    | Learn how to talk like an Information-Operation-er |      |               |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
