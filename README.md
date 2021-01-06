@@ -81,6 +81,19 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | [thpronun](https://github.com/tlwg/thpronun)                 | thpronun is a program for analyzing pronunciation of Thai words. The output can be in Thai pronunciation, Romanization, or in any other phonetic systems. It is designed to be extensible. | active | C/C++      | GPL-3.0 License            |
 | [Thai G2P (grapheme to phoneme)](https://github.com/nozomiyamada/thaig2p) | dictionary-based conversion + BiLSTM seq2seq model (under construction) | active | Python 3.X |                            |
 
+### Named Entity Recognition
+
+| Name                                                | Description             | Status | Language   | License                    |
+| --------------------------------------------------- | ----------------------- | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit   | active | Python 3.X | BSD License (BSD-3-Clause) |
+
+### Soundex
+
+| Name                                                | Description             | Status | Language   | License            |
+| --------------------------------------------------- | ----------------------- | ------ | ---------- | ------------------ |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0 |
+
 ## Corpus/Dataset
 
 ### Word Segmentation Corpus
@@ -178,6 +191,15 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Name            | Description                                                  | Size | License         | Creator | Download                                                     |
 | --------------- | ------------------------------------------------------------ | ---- | --------------- | ------- | ------------------------------------------------------------ |
 | Thai Plagiarism | Thai Plagiarism Detection http://copycatch.in.th/thai-plagiarism-task.html |      | CC BY-SA-NC 3.0 | NECTEC  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+
+### Named Entity Recognition
+
+| Name          | Description                               | Size | License   | Creator                     | Download                                                     |
+| ------------- | ----------------------------------------- | ---- | --------- | --------------------------- | ------------------------------------------------------------ |
+| นัชชา ถิระสาโรช | corpora by Wirote Aroonmanakun's students |      | ?         | นัชชา ถิระสาโรช               | [นัชชา ถิระสาโรช Data](http://pioneer.chula.ac.th/~awirote/Data-Nutcha.zip) |
+| ศศิวิมล กาลันสีมา | corpora by Wirote Aroonmanakun's students |      | ?         | ศศิวิมล กาลันสีมา               | [ศศิวิมล กาลันสีมา Data](http://pioneer.chula.ac.th/~awirote/Data-Sasiwimon.zip) |
+| ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students |      | ?         | ณัฐดาพร เลิศชีวะ               | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
+| Thai NER      | Thai NER project is part of PyThaiNLP.    |      | CC BY 3.0 | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/thai-ner)             |
 
 ### Text Corpus
 
