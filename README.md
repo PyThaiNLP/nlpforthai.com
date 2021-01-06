@@ -105,11 +105,12 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Parallel Corpus
 
-| Name                     | Description                                                  | Size                    | License         | Creator                                                      | Download                                                     |
-| ------------------------ | ------------------------------------------------------------ | ----------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| TALPCo                   | TUFS Asian Language Parallel Corpus                          | 1,327 sent              | CC BY 4.0       | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
-| scb-mt-en-th-2020        | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
-| Thai Lao Parallel corpus | Thai Lao Parallel corpus                                     |                         | CC0-1.0 License | Wannaphong Phatthiyaphaibun                                  | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
+| Name                                                    | Description                                                  | Size                                               | License         | Creator                                                      | Download                                                     |
+| ------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| TALPCo                                                  | TUFS Asian Language Parallel Corpus                          | 1,327 sent                                         | CC BY 4.0       | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
+| scb-mt-en-th-2020                                       | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs                            | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
+| Software Documentation Data Set for Machine Translation | A parallel evaluation data set of SAP software documentation with document structure annotation | dev: 2048  segment pairs, test: 2050 segment pairs | CC BY-NC 4.0    | SAP                                                          | [GitHub](https://github.com/SAP/software-documentation-data-set-for-machine-translation) |
+| Thai Lao Parallel corpus                                | Thai Lao Parallel corpus                                     |                                                    | CC0-1.0 License | Wannaphong Phatthiyaphaibun                                  | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
 
 ### Text Classification
 
@@ -182,6 +183,12 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Name   | Description                                                  | License | Creator            | Download                                     |
 | ------ | ------------------------------------------------------------ | ------- | ------------------ | -------------------------------------------- |
 | MudYom | MudYom is a module for pre/post-processing text. It combines, aka มัด, words that should be together into one token. This process is done according to a user-defined dictionary. |         | Pattarawat Chormai | [GitHub](https://github.com/heytitle/mudyom) |
+
+### Braille
+
+| Name               | Description          | License | Creator | Download                                                 |
+| ------------------ | -------------------- | ------- | ------- | -------------------------------------------------------- |
+| Thai-textToBraille | Thai text to Braille |         |         | [GitHub](https://github.com/NonKhuna/Thai-textToBraille) |
 
 ## Pre-trained models/Models
 
