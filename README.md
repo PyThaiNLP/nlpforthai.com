@@ -257,6 +257,12 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | ------------------------------------------ | ------------------------------------------------------------ | ---- | ------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | Word Similarity Datasets for Thai Language | This repo contains translated and re-rated datasets for word similarity for Thai language. |      |         | Ponrudee Netisopakul￼, Gerhard Wohlgenannt, Aleksei Pulich | [GitHub](https://github.com/gwohlgen/thai_word_similarity) |
 
+### Grapheme to Phoneme
+
+| Name                | Description                              | Size        | License      | Creator                     | Download                                                     |
+| ------------------- | ---------------------------------------- | ----------- | ------------ | --------------------------- | ------------------------------------------------------------ |
+| Grapheme to Phoneme | Thai Grapheme to Phoneme from Wiktionary | 14,483 word | CC BY-SA 3.0 | Wannaphong Phatthiyaphaibun | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
+
 ## Tools
 
 **Menu**
