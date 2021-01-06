@@ -41,6 +41,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | [Stanza](https://github.com/stanfordnlp/stanza)              | Official Stanford NLP Python Library for Many Human Languages | active   | Python 3.X          | Apache License 2.0         |
 | [Multi Candidate Thai Word Segmentation](https://github.com/earthy123/Multi-Candidate-Word-Segmentation) | Most existing word segmentation methods output one single segmentation solution. | active   | Python 3.X          | MIT License                |
 | [PhlongTaIam](https://github.com/veer66/PhlongTaIam)         | PHP Thai word breaker                                        | active   | PHP                 | LGPL-2.1 License           |
+| [Chamkho](https://github.com/veer66/chamkho)         | Rust Thai word breaker                                        | active   | Rust                 | LGPL-3 License           |
 
 ### Syllable Segmentation
 
