@@ -29,6 +29,8 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | [sertiscorp /thai-word-segmentation](https://github.com/sertiscorp/thai-word-segmentation) | Thai word segmentation with bi-directional RNN               | -        | Python 3.X          | MIT License                |
 | [Thai Analysis Plugin for Elasticsearch](https://github.com/tlefsad/elasticsearch-analysis-thaichub2) | The Thaichub2 (thai-chub-chub) Analysis Plugin integrates the Thai word segmentation modules into Elasticsearch. | active   | Java                | Apache-2.0 License         |
 | [Wordcut](https://github.com/veer66/wordcut)                 | Thai word breaker for Node.js                                | active   | JavaScript, Node.JS | LGPLv3                     |
+| [newmm-tokenizer](https://github.com/wisesight/newmm-tokenizer) | Standalone Dictionary-based, Maximum Matching + Thai Character Cluster (newmm) tokenizer extracted from PyThaiNLP. | active   | Python 3.X          | Apache License 2.0         |
+| [Stanza](https://github.com/stanfordnlp/stanza)              | Official Stanford NLP Python Library for Many Human Languages | active   | Python 3.X          | Apache License 2.0         |
 
 ### Syllable Segmentation
 
@@ -69,6 +71,15 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Name                                                      | Description                                                  | Status | Language   | License     |
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ----------- |
 | [spaCy-Thai](https://github.com/KoichiYasuoka/spaCy-Thai) | Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies. | active | Python 3.X | MIT License |
+
+### Grapheme to Phoneme
+
+| Name                                                         | Description                                                  | Status | Language   | License                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp)          | It's part of PyThaiNLP.                                      | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/)                       | Thai Language Toolkit                                        | active | Python 3.X | BSD License (BSD-3-Clause) |
+| [thpronun](https://github.com/tlwg/thpronun)                 | thpronun is a program for analyzing pronunciation of Thai words. The output can be in Thai pronunciation, Romanization, or in any other phonetic systems. It is designed to be extensible. | active | C/C++      | GPL-3.0 License            |
+| [Thai G2P (grapheme to phoneme)](https://github.com/nozomiyamada/thaig2p) | dictionary-based conversion + BiLSTM seq2seq model (under construction) | active | Python 3.X |                            |
 
 ## Corpus/Dataset
 
@@ -123,6 +134,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Thai-Clickbait                | The dataset for Thai Clickbait classification                | train: 37,376 messages, test: 9,344 messages | 1         | MIT License      | @9meo at GitHub                                              | [GitHub](https://github.com/9meo/Thai-Clickbait)             |
 | sentiment_analysis_thai       | Thai sentiment analysis from @JagerV3                        |                                              | 2         | ?                | @JagerV3 at GitHub                                           | [GitHub](https://github.com/JagerV3/sentiment_analysis_thai) |
 | thai-emojification            | Emojification of Thai Text, Using Deep Learning (LSTM).      | train: 128 messages, test: 55 messages       | 5 (❤️😄😞🍴⚾) | GPL-3.0 License  | iApp Technology Co, Ltd                                      | [GitHub](https://github.com/kobkrit/thai-emojification)      |
+| The 40 Thai Children Stories  | The dataset was collected from 40 Thai children stories. We manually split the text into sentences which leads to 1,964 sentences | 1,964 sentences                              | 3         | ?                | Kitsuchart Pasupa, Thititorn Seneewong Na Ayutthaya          | [GitHub](https://github.com/dsmlr/40-Thai-Children-Stories)  |
 
 ### OCR Dataset
 
@@ -136,6 +148,7 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | Name    | Description                                      | Size                      | License     | Creator               | Download                                                  |
 | ------- | ------------------------------------------------ | ------------------------- | ----------- | --------------------- | --------------------------------------------------------- |
 | ThaiSum | The largest dataset for Thai text summarization. | 350,000 articles (2.9 GB) | MIT Licence | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
+| TR-TPBS | A dataset for Thai text summarization.           | 310K articles             | MIT License | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS) |
 
 ### Question Answering
 
@@ -175,6 +188,12 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 | IO-LM                    | Learn how to talk like an Information-Operation-er           |           |                 |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
 | HC corpora               | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |           |                 |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
 | thai-joke-corpus         | Thai jokes scraped from 4 Thai jokes facebook pages collected by iApp Technology Co, Ltd. | 449 Jokes | GPL-3.0 License | iApp Technology Co, Ltd     | [GitHub](https://github.com/iapp-technology/thai-joke-corpus) |
+
+### N-gram
+
+| Name                       | Description                | Size | License | Creator              | Download                                                     |
+| -------------------------- | -------------------------- | ---- | ------- | -------------------- | ------------------------------------------------------------ |
+| Unigram from  OSCAR Corpus | Unigram from  OSCAR Corpus |      |         | Korakot Chaovavanich | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
 
 ## Tools
 
