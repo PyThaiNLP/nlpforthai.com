@@ -2,7 +2,7 @@
 
 It's Thai NLP homepage. All is Open Source. [Work in process...]
 
-Website: [NLPForThai.com](nlpforthai.com) maintained by PyThaiNLP
+Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 **Menu**
 
