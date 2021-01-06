@@ -242,6 +242,12 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | -------------------------- | -------------------------- | ---- | ------- | -------------------- | ------------------------------------------------------------ |
 | Unigram from  OSCAR Corpus | Unigram from  OSCAR Corpus |      |         | Korakot Chaovavanich | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
 
+### Word Similarity
+
+| Name                                       | Description                                                  | Size | License | Creator                                                    | Download                                                   |
+| ------------------------------------------ | ------------------------------------------------------------ | ---- | ------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| Word Similarity Datasets for Thai Language | This repo contains translated and re-rated datasets for word similarity for Thai language. |      |         | Ponrudee Netisopakul￼, Gerhard Wohlgenannt, Aleksei Pulich | [GitHub](https://github.com/gwohlgen/thai_word_similarity) |
+
 ## Tools
 
 **Menu**
