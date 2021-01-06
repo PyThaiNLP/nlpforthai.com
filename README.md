@@ -38,9 +38,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ### Syllable Segmentation
 
-| Name                                   | Description                     | Status | Language   | License            |
-| -------------------------------------- | ------------------------------- | ------ | ---------- | ------------------ |
-| [ssg](https://github.com/ponrawee/ssg) | CRF syllable segmenter for Thai | active | Python 3.X | Apache License 2.0 |
+| Name                                   | Description                     | Status | Language   | License                    |
+| -------------------------------------- | ------------------------------- | ------ | ---------- | -------------------------- |
+| [ssg](https://github.com/ponrawee/ssg) | CRF syllable segmenter for Thai | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/) | Thai Language Toolkit           | active | Python 3.X | BSD License (BSD-3-Clause) |
 
 ### Sentence Segmentation
 
@@ -52,9 +53,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ### Part Of Speech
 
-| Name                                                | Description             | Status | Language   | License            |
-| --------------------------------------------------- | ----------------------- | ------ | ---------- | ------------------ |
-| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0 |
+| Name                                                | Description             | Status | Language   | License                    |
+| --------------------------------------------------- | ----------------------- | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit   | active | Python 3.X | BSD License (BSD-3-Clause) |
 
 ### OCR
 
