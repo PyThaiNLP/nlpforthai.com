@@ -238,13 +238,14 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ### Text Corpus
 
-| Name                     | Description                                                  | Size      | License         | Creator                     | Download                                                     |
-| ------------------------ | ------------------------------------------------------------ | --------- | --------------- | --------------------------- | ------------------------------------------------------------ |
-| Thai Constitution Corpus | The Constitution of Thailand Dataset Since 1932              |           | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
-| Thai Law                 | Thai Law Dataset (Act of Parliament)                         |           | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
-| IO-LM                    | Learn how to talk like an Information-Operation-er           |           |                 |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
-| HC corpora               | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |           |                 |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
-| thai-joke-corpus         | Thai jokes scraped from 4 Thai jokes facebook pages collected by iApp Technology Co, Ltd. | 449 Jokes | GPL-3.0 License | iApp Technology Co, Ltd     | [GitHub](https://github.com/iapp-technology/thai-joke-corpus) |
+| Name                          | Description                                                  | Size                                                         | License         | Creator                     | Download                                                     |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- | --------------------------- | ------------------------------------------------------------ |
+| Thai Constitution Corpus      | The Constitution of Thailand Dataset Since 1932              |                                                              | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/Thai-constitution-corpus) |
+| Thai Law                      | Thai Law Dataset (Act of Parliament)                         |                                                              | Public Domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-law)              |
+| IO-LM                         | Learn how to talk like an Information-Operation-er           |                                                              |                 |                             | [GitHub](https://github.com/noppayut/IO-LM)                  |
+| HC corpora                    | HC corpora is a collection of corpora for various languages freely available to download. homepage : [http://corpora.epizy.com/about.html](http://corpora.epizy.com/about.html) |                                                              |                 |                             | [MediaFire](https://www.mediafire.com/file/1l411ltq14ir3ug/thai_corpus_2012_03_21.rar/file) |
+| thai-joke-corpus              | Thai jokes scraped from 4 Thai jokes facebook pages collected by iApp Technology Co, Ltd. | 449 Jokes                                                    | GPL-3.0 License | iApp Technology Co, Ltd     | [GitHub](https://github.com/iapp-technology/thai-joke-corpus) |
+| Thai Literature Corpora (TLC) | texts from Vajirayana Digital Library, stored by chapters and stanzas (non-tokenized). | a total of 34 documents, 292,270 lines, 31,790,734 characters |                 | Jitkapat Sawatphol          | [Website](https://attapol.github.io/tlc.html)                |
 
 ### N-gram
 
