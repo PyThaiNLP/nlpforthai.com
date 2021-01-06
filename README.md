@@ -13,6 +13,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ## Software
 
+**Menu**
+
+[WIP]
+
 ### Word Segmentation
 
 | Name                                                         | Description                                                  | Status   | Language            | License                    |
@@ -36,6 +40,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | [newmm-tokenizer](https://github.com/wisesight/newmm-tokenizer) | Standalone Dictionary-based, Maximum Matching + Thai Character Cluster (newmm) tokenizer extracted from PyThaiNLP. | active   | Python 3.X          | Apache License 2.0         |
 | [Stanza](https://github.com/stanfordnlp/stanza)              | Official Stanford NLP Python Library for Many Human Languages | active   | Python 3.X          | Apache License 2.0         |
 | [Multi Candidate Thai Word Segmentation](https://github.com/earthy123/Multi-Candidate-Word-Segmentation) | Most existing word segmentation methods output one single segmentation solution. | active   | Python 3.X          | MIT License                |
+| [PhlongTaIam](https://github.com/veer66/PhlongTaIam)         | PHP Thai word breaker                                        | active   | PHP                 | LGPL-2.1 License           |
 
 ### Syllable Segmentation
 
@@ -102,6 +107,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0 |
 
 ## Corpus/Dataset
+
+**Menu**
+
+[WIP]
 
 ### Word Segmentation Corpus
 
@@ -235,11 +244,18 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ## Tools
 
+**Menu**
+
+- [Word Segmentation tools](#word-segmentation-tools)
+- [Braille](#braille)
+
 ### Word Segmentation tools
 
 | Name   | Description                                                  | License | Creator            | Download                                     |
 | ------ | ------------------------------------------------------------ | ------- | ------------------ | -------------------------------------------- |
 | MudYom | MudYom is a module for pre/post-processing text. It combines, aka มัด, words that should be together into one token. This process is done according to a user-defined dictionary. |         | Pattarawat Chormai | [GitHub](https://github.com/heytitle/mudyom) |
+
+[^ up to menu](#tools)  [^up to top page](#nlp-for-thai)
 
 ### Braille
 
@@ -247,6 +263,12 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | ------------------ | -------------------- | ------- | ------- | -------------------------------------------------------- |
 | Thai-textToBraille | Thai text to Braille |         |         | [GitHub](https://github.com/NonKhuna/Thai-textToBraille) |
 
+[^ up to menu](#tools)  [^up to top page](#nlp-for-thai)
+
 ## Pre-trained models/Models
+
+**Menu**
+
+[WIP]
 
 ... [WIP]
