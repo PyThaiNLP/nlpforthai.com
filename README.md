@@ -194,12 +194,13 @@ It's Thai NLP homepage. All is Open Source. [Work in process...]
 
 ### Named Entity Recognition
 
-| Name          | Description                               | Size | License   | Creator                     | Download                                                     |
-| ------------- | ----------------------------------------- | ---- | --------- | --------------------------- | ------------------------------------------------------------ |
-| นัชชา ถิระสาโรช | corpora by Wirote Aroonmanakun's students |      | ?         | นัชชา ถิระสาโรช               | [นัชชา ถิระสาโรช Data](http://pioneer.chula.ac.th/~awirote/Data-Nutcha.zip) |
-| ศศิวิมล กาลันสีมา | corpora by Wirote Aroonmanakun's students |      | ?         | ศศิวิมล กาลันสีมา               | [ศศิวิมล กาลันสีมา Data](http://pioneer.chula.ac.th/~awirote/Data-Sasiwimon.zip) |
-| ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students |      | ?         | ณัฐดาพร เลิศชีวะ               | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
-| Thai NER      | Thai NER project is part of PyThaiNLP.    |      | CC BY 3.0 | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/thai-ner)             |
+| Name          | Description                                                  | Size | License         | Creator                     | Download                                                     |
+| ------------- | ------------------------------------------------------------ | ---- | --------------- | --------------------------- | ------------------------------------------------------------ |
+| นัชชา ถิระสาโรช | corpora by Wirote Aroonmanakun's students                    |      | ?               | นัชชา ถิระสาโรช               | [นัชชา ถิระสาโรช Data](http://pioneer.chula.ac.th/~awirote/Data-Nutcha.zip) |
+| ศศิวิมล กาลันสีมา | corpora by Wirote Aroonmanakun's students                    |      | ?               | ศศิวิมล กาลันสีมา               | [ศศิวิมล กาลันสีมา Data](http://pioneer.chula.ac.th/~awirote/Data-Sasiwimon.zip) |
+| ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students                    |      | ?               | ณัฐดาพร เลิศชีวะ               | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
+| Thai NER      | Thai NER project is part of PyThaiNLP.                       |      | CC BY 3.0       | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/thai-ner)             |
+| THAI-NEST     | Thai Named Entity tagging Corpus from NECTEC & Thammasat University |      | CC BY-SA-NC 3.0 | NECTEC                      | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
 
 ### Text Corpus
 
