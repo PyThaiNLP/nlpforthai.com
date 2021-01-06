@@ -27,7 +27,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | [TLTK](https://pypi.org/project/tltk/)                       | Thai Language Toolkit                                        | active   | Python 3.X          | BSD License (BSD-3-Clause) |
 | [KUCut](https://github.com/Thanabhat/KUCut)                  | Thai word segmentor that is difference from existing segmentor such as CTTEX or SWATH. | deactive | Python 2.4-2.5      | GPL-2.0 License            |
 | [SEFR CUT](https://github.com/mrpeerat/SEFR_CUT)             | Stacked Ensemble Filter and Refine for Word Segmentation     | active   | Python 3.X          | MIT License                |
-| [CutKum](https://github.com/pucktada/cutkum)                 | Thai Word-Segmentation with LSTM in Tensorflow               |          | Python 3.X          | MIT License                |
+| [CutKum](https://github.com/pucktada/cutkum)                 | Thai Word-Segmentation with LSTM in Tensorflow               | -        | Python 3.X          | MIT License                |
 | [ThaiLMCut](https://github.com/meanna/ThaiLMCUT)             | Word Tokenizer for Thai Language based on Transfer Learning and bidirectional-LSTM | active   | Python 3.X          | MIT License                |
 | [LexTo](http://www.sansarn.com/lexto/)                       | Thai word segmentation ( Longest Matching )                  | -        | Java                | LGPLv2.1                   |
 | [sertiscorp /thai-word-segmentation](https://github.com/sertiscorp/thai-word-segmentation) | Thai word segmentation with bi-directional RNN               | -        | Python 3.X          | MIT License                |
@@ -35,6 +35,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | [Wordcut](https://github.com/veer66/wordcut)                 | Thai word breaker for Node.js                                | active   | JavaScript, Node.JS | LGPLv3                     |
 | [newmm-tokenizer](https://github.com/wisesight/newmm-tokenizer) | Standalone Dictionary-based, Maximum Matching + Thai Character Cluster (newmm) tokenizer extracted from PyThaiNLP. | active   | Python 3.X          | Apache License 2.0         |
 | [Stanza](https://github.com/stanfordnlp/stanza)              | Official Stanford NLP Python Library for Many Human Languages | active   | Python 3.X          | Apache License 2.0         |
+| [Multi Candidate Thai Word Segmentation](https://github.com/earthy123/Multi-Candidate-Word-Segmentation) | Most existing word segmentation methods output one single segmentation solution. | active   | Python 3.X          | MIT License                |
 
 ### Syllable Segmentation
 
@@ -123,9 +124,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ### Treebank
 
-| Name | Description                                                  | Size            | License   | Creator                                                      | Download                                    |
-| ---- | ------------------------------------------------------------ | --------------- | --------- | ------------------------------------------------------------ | ------------------------------------------- |
-| thtb | To enable research oppotunities with very few Thai Computational Linguitic resources, we willingly introduce fundamental high-level language resouces built with passion, Thai Treebanks, build from scratch for researchers and enthusiasts. | 5,200 sentences | CC BY 4.0 | Pechlada Seenual, Thodsaporn Chay-intr and Thanaruk Theeramunkong | [GitHub](https://github.com/tchayintr/thtb) |
+| Name        | Description                                                  | Size            | License      | Creator                                                      | Download                                                     |
+| ----------- | ------------------------------------------------------------ | --------------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| UD Thai PUD | This is a part of the Parallel Universal Dependencies (PUD) treebanks created for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies. | 1,000 sentences | CC BY-SA 3.0 | Universal Dependencies                                       | [GitHub](https://github.com/UniversalDependencies/UD_Thai-PUD) |
+| thtb        | To enable research oppotunities with very few Thai Computational Linguitic resources, we willingly introduce fundamental high-level language resouces built with passion, Thai Treebanks, build from scratch for researchers and enthusiasts. | 5,200 sentences | CC BY 4.0    | Pechlada Seenual, Thodsaporn Chay-intr and Thanaruk Theeramunkong | [GitHub](https://github.com/tchayintr/thtb)                  |
 
 ### Natural Language Inference
 
@@ -157,10 +159,10 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 ### OCR Dataset
 
-| Name                  | Description                                | Size | License         | Creator                 | Download                                                     |
-| --------------------- | ------------------------------------------ | ---- | --------------- | ----------------------- | ------------------------------------------------------------ |
-| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |      | CC BY  4.0      | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1)   |
-| Thai OCR              |                                            |      | CC BY-SA-NC 3.0 | NECTEC                  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Name                  | Description                                | Size                       | License         | Creator                 | Download                                                     |
+| --------------------- | ------------------------------------------ | -------------------------- | --------------- | ----------------------- | ------------------------------------------------------------ |
+| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |                            | CC BY  4.0      | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1)   |
+| Thai OCR              | Thai ocr dataset from NECTEC               | Training set: 81,100 image | CC BY-SA-NC 3.0 | NECTEC                  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
 
 ### Text Summarization
 
@@ -188,7 +190,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 | Name                | Description                                                  | Size            | License         | Creator                                                      | Download                                                     |
 | ------------------- | ------------------------------------------------------------ | --------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Lotus               | Thai Speech Recognition corpus from  NECTEC                  |                 | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/tag/v1.0) |
+| Lotus-cell          | Thai Speech Recognition corpus from  NECTEC                  |                 | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/tag/v1.0) |
 | Common Voice Corpus | Common Voice Corpus from mozilla                             | 8 hours (valid) | CC0-1.0 License | mozilla                                                      | [Common Voice](https://commonvoice.mozilla.org/th/datasets)  |
 | Gowajee corpus      | The corpus was collected in the Automatic Speech Recognition class offered at Chulalongkorn University as a homework assignment. | 11 hours        | MIT License     | Ekapol Chuangsuwanich, Atiwong Suchato, Korrawe Karunratanakul, Burin Naowarat, Chompakorn CChaichot and Penpicha Sangsa-nga | [GitHub](https://github.com/ekapolc/gowajee_corpus)          |
 
@@ -207,6 +209,13 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 | ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students                    |      | ?               | ณัฐดาพร เลิศชีวะ               | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
 | Thai NER      | Thai NER project is part of PyThaiNLP.                       |      | CC BY 3.0       | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/thai-ner)             |
 | THAI-NEST     | Thai Named Entity tagging Corpus from NECTEC & Thammasat University |      | CC BY-SA-NC 3.0 | NECTEC                      | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+
+### Dictionaries
+
+| Name     | Description                                                  | Size                      | License          | Creator       | Download                                                     |
+| -------- | ------------------------------------------------------------ | ------------------------- | ---------------- | ------------- | ------------------------------------------------------------ |
+| LEXiTRON | Thai<->English Dictionary                                    | Thai-English 83,000 words | CC BY-SA-NC 3.0  | NECTEC        | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Yaitron  | Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine. |                           | LEXiTRON License | Vee Satayamas | [GitHub](https://github.com/veer66/Yaitron)                  |
 
 ### Text Corpus
 
