@@ -10,6 +10,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 - [Corpus/Dataset](./corpus)
 - [Tools](./tools)
 - [Pre-trained models/Models](./pretrained)
+- [Benchmarks](./benchmarks)
 
 
 <a href="https://github.com/PyThaiNLP/nlpforthai.com/graphs/contributors">
