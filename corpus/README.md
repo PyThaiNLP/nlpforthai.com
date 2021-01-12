@@ -135,9 +135,11 @@
 
 ### N-gram
 
-| Name                       | Description                | Size | License | Creator              | Download                                                     |
-| -------------------------- | -------------------------- | ---- | ------- | -------------------- | ------------------------------------------------------------ |
-| Unigram from  OSCAR Corpus | Unigram from  OSCAR Corpus |      |         | Korakot Chaovavanich | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
+| Name                       | Description                                      | Size           | License | Creator                                   | Download                                                     |
+| -------------------------- | ------------------------------------------------ | -------------- | ------- | ----------------------------------------- | ------------------------------------------------------------ |
+| Unigram from  OSCAR Corpus | Unigram from  OSCAR Corpus                       |                |         | Korakot Chaovavanich                      | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
+| TTC                        | N-gram from Thai text book                       | 3,037,772 word |         |                                           | [Website](http://www.arts.chula.ac.th/~ling/TTC/)            |
+| Thai National Corpus       | Thai National Corpus (Unigram, Bi-gram, Ti-gram) |                |         | Faculty of Arts, Chulalongkorn University | [Website](http://www.arts.chula.ac.th/ling/tnc/searchtnc/)   |
 
 ### Word Similarity
 
