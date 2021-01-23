@@ -3,7 +3,8 @@
 
 **Menu**
 
-[WIP]
+- [Word Segmentation Corpus](#word-segmentation-corpus)
+- [Part of Speech](#part-of-sppech)
 
 ### Word Segmentation Corpus
 
@@ -162,6 +163,8 @@
 | thai-joke-corpus              | Thai jokes scraped from 4 Thai jokes facebook pages collected by iApp Technology Co, Ltd. | 449 Jokes                                                    | GPL-3.0 License | iApp Technology Co, Ltd     | [GitHub](https://github.com/iapp-technology/thai-joke-corpus) |
 | Thai Literature Corpora (TLC) | texts from Vajirayana Digital Library, stored by chapters and stanzas (non-tokenized). | a total of 34 documents, 292,270 lines, 31,790,734 characters |                 | Jitkapat Sawatphol          | [Website](https://attapol.github.io/tlc.html)                |
 | HSE Thai Corpus               | A 35 Million Word Corpus of Thai                             |                                                              |                 |                             | [Kaggle](https://www.kaggle.com/rtatman/hse-thai-corpus)     |
+| ThaiGov corpus                | Data from Thai government website.                           |                                                              | public domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thaigov-corpus)        |
+| ThaiGov V2 Corpus             | Thai News Dataset from Thai government website.              |                                                              | public domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thaigov-v2-corpus)     |
 
 [up to menu](#corpusdataset)
 
