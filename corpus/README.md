@@ -4,7 +4,7 @@
 **Menu**
 
 - [Word Segmentation Corpus](#word-segmentation-corpus)
-- [Part of Speech](#part-of-sppech)
+- [Part of Speech](#part-of-speech)
 
 ### Word Segmentation Corpus
 
@@ -192,5 +192,13 @@
 | Name                | Description                              | Size        | License      | Creator                     | Download                                                     |
 | ------------------- | ---------------------------------------- | ----------- | ------------ | --------------------------- | ------------------------------------------------------------ |
 | Grapheme to Phoneme | Thai Grapheme to Phoneme from Wiktionary | 14,483 word | CC BY-SA 3.0 | Wannaphong Phatthiyaphaibun | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
+
+[up to menu](#corpusdataset)
+
+### Name
+
+| Name                              | Description                                                  | Size        | License                | Creator    | Download                                                |
+| --------------------------------- | ------------------------------------------------------------ | ----------- | ---------------------- | ---------- | ------------------------------------------------------- |
+| Thai Male and Female Names Corpus | The project contains Thai male, female, and family names, aimed for Thai language analysis. | 22,058 Name | CC BY-SA 4.0Korkeat W. | Korkeat W. | [GitHub](https://github.com/korkeatw/thai-names-corpus) |
 
 [up to menu](#corpusdataset)
