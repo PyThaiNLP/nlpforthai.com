@@ -5,6 +5,23 @@
 
 - [Word Segmentation Corpus](#word-segmentation-corpus)
 - [Part of Speech](#part-of-speech)
+- [Treebank](#treebank)
+- [Natural Language Inference](#natural-language-inference)
+- [Parallel Corpus](#parallel-corpus)
+- [Text Classification](#text-classification)
+- [OCR Dataset](#ocr-dataset)
+- [Text Summarization](#text-summarization)
+- [Question Answering](#question-answering)
+- [Speech Synthesis](#speech-synthesis)
+- [Speech Recognition](#speech-recognition)
+- [Plagiarism](#plagiarism)
+- [Named Entity Recognition](#named-entity-recognition)
+- [Dictionaries](#dictionaries)
+- [Text Corpus](#text-corpus)
+- [N-gram](#n-gram)
+- [Word Similarity](#word-similarity)
+- [Grapheme to Phoneme](#grapheme-to-phoneme)
+- [Name](#name)
 
 ### Word Segmentation Corpus
 
