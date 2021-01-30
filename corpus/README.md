@@ -22,6 +22,7 @@
 - [Word Similarity](#word-similarity)
 - [Grapheme to Phoneme](#grapheme-to-phoneme)
 - [Name](#name)
+- [WordNet](#wordnet)
 
 ### Word Segmentation Corpus
 
@@ -214,8 +215,20 @@
 
 ### Name
 
-| Name                              | Description                                                  | Size        | License                | Creator    | Download                                                |
-| --------------------------------- | ------------------------------------------------------------ | ----------- | ---------------------- | ---------- | ------------------------------------------------------- |
-| Thai Male and Female Names Corpus | The project contains Thai male, female, and family names, aimed for Thai language analysis. | 22,058 Name | CC BY-SA 4.0Korkeat W. | Korkeat W. | [GitHub](https://github.com/korkeatw/thai-names-corpus) |
+| Name                              | Description                                                  | Size        | License      | Creator    | Download                                                |
+| --------------------------------- | ------------------------------------------------------------ | ----------- | ------------ | ---------- | ------------------------------------------------------- |
+| Thai Male and Female Names Corpus | The project contains Thai male, female, and family names, aimed for Thai language analysis. | 22,058 Name | CC BY-SA 4.0 | Korkeat W. | [GitHub](https://github.com/korkeatw/thai-names-corpus) |
+
+[up to menu](#corpusdataset)
+
+### WordNet
+
+
+| Name                      | Description                                                  | Size | License | Creator        | Download                                                     |
+| ------------------------- | ------------------------------------------------------------ | ---- | ------- | -------------- | ------------------------------------------------------------ |
+| Open Multilingual Wordnet | The goal is to make it easy to use wordnets in multiple languages. | 81%  |         |                | [Website](http://compling.hss.ntu.edu.sg/omw/)               |
+| th-wn-sqlite              | Thai wordnet in SQLite                                       | -    |         | Vee Satayamas  | [sourceforge](https://sourceforge.net/projects/thwnsqlite/)  |
+| ธนนท์ หลีน้อย 2008           |                                                              |      |         | ธนนท์ หลีน้อย     | [Website](http://pioneer.chula.ac.th/~awirote/Data-Dhannon.rar) |
+| ปริศนา อัครพุทธิพร Data 2008  |                                                              |      |         | ปริศนา อัครพุทธิพร | [Website](http://pioneer.chula.ac.th/~awirote/Data-Prisana.rar) |
 
 [up to menu](#corpusdataset)
