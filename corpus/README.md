@@ -164,10 +164,11 @@
 
 ### Dictionaries
 
-| Name     | Description                                                  | Size                      | License          | Creator       | Download                                                     |
-| -------- | ------------------------------------------------------------ | ------------------------- | ---------------- | ------------- | ------------------------------------------------------------ |
-| LEXiTRON | Thai<->English Dictionary                                    | Thai-English 83,000 words | CC BY-SA-NC 3.0  | NECTEC        | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
-| Yaitron  | Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine. |                           | LEXiTRON License | Vee Satayamas | [GitHub](https://github.com/veer66/Yaitron)                  |
+| Name                                 | Description                                                  | Size                      | License          | Creator       | Download                                                     |
+| ------------------------------------ | ------------------------------------------------------------ | ------------------------- | ---------------- | ------------- | ------------------------------------------------------------ |
+| LEXiTRON                             | Thai<->English Dictionary                                    | Thai-English 83,000 words | CC BY-SA-NC 3.0  | NECTEC        | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Yaitron                              | Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine. |                           | LEXiTRON License | Vee Satayamas | [GitHub](https://github.com/veer66/Yaitron)                  |
+| Volubilis Dict - Thai-English-French | VOLUBILIS - Thai English French Database                     |                           |                  |               | [sourceforge](https://sourceforge.net/projects/belisan/)     |
 
 [up to menu](#corpusdataset)
 
