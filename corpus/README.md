@@ -114,11 +114,12 @@
 
 ### Question Answering
 
-| Name    | Description                                                  | Size                                           | License            | Creator         | Download                                                     |
-| ------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------ | --------------- | ------------------------------------------------------------ |
-| XQuAD   | XQuAD (Cross-lingual Question Answering Dataset) is a benchmark dataset for evaluating cross-lingual question answering performance. | 240 paragraphs and 1,190 question-answer pairs | CC BY-SA  4.0      | DeepMind        | [GitHub](https://github.com/deepmind/xquad)                  |
-| Thai QA | Question answering program from Thai Wikipedia.              | 4,000 question-answer pairs                    | CC BY-SA-NC 3.0    | NECTEC          | Dataset: [aiforthai](https://aiforthai.in.th/corpus.php) (registration required), wiki: [copycatch](http://www.copycatch.in.th/documents-nsc.tar.gz), Sample data set: [copycatch](http://www.copycatch.in.th/qa-output100.json) |
-| TyDi QA | A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages | 200k human-annotated question-answer pairs     | Apache-2.0 License | Google Research | [GitHub](https://github.com/google-research-datasets/tydiqa) |
+| Name                 | Description                                                  | Size                                           | License            | Creator         | Download                                                     |
+| -------------------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------ | --------------- | ------------------------------------------------------------ |
+| XQuAD                | XQuAD (Cross-lingual Question Answering Dataset) is a benchmark dataset for evaluating cross-lingual question answering performance. | 240 paragraphs and 1,190 question-answer pairs | CC BY-SA  4.0      | DeepMind        | [GitHub](https://github.com/deepmind/xquad)                  |
+| Thai QA              | Question answering program from Thai Wikipedia.              | 4,000 question-answer pairs                    | CC BY-SA-NC 3.0    | NECTEC          | Dataset: [aiforthai](https://aiforthai.in.th/corpus.php) (registration required), wiki: [copycatch](http://www.copycatch.in.th/documents-nsc.tar.gz), Sample data set: [copycatch](http://www.copycatch.in.th/qa-output100.json) |
+| TyDi QA              | A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages | 200k human-annotated question-answer pairs     | Apache-2.0 License | Google Research | [GitHub](https://github.com/google-research-datasets/tydiqa) |
+| iapp-wiki-qa-dataset | Open Thai Wikipedia QA Dataset made by iApp Technology       | 1,961 Documents<br/>9,170 Questions            | MIT License        | iApp Technology | [GitHub](https://github.com/iapp-technology/iapp-wiki-qa-dataset) |
 
 [up to menu](#corpusdataset)
 
