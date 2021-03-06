@@ -12,6 +12,7 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 - [Pre-trained models/Models](./pretrained)
 - [Benchmarks](./benchmarks)
 
+**Contributors**
 
 <a href="https://github.com/PyThaiNLP/nlpforthai.com/graphs/contributors">
   <img src="https://contributors-img.firebaseapp.com/image?repo=PyThaiNLP/nlpforthai.com" />
