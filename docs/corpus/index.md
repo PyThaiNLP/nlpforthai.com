@@ -14,6 +14,7 @@
 - [Question Answering](#question-answering)
 - [Speech Synthesis](#speech-synthesis)
 - [Speech Recognition](#speech-recognition)
+- [Speech Emotion](#speech-emotion)
 - [Plagiarism](#plagiarism)
 - [Named Entity Recognition](#named-entity-recognition)
 - [Dictionaries](#dictionaries)
@@ -141,6 +142,14 @@
 | Gowajee corpus      | The corpus was collected in the Automatic Speech Recognition class offered at Chulalongkorn University as a homework assignment. | 11 hours                            | MIT License     | Ekapol Chuangsuwanich, Atiwong Suchato, Korrawe Karunratanakul, Burin Naowarat, Chompakorn CChaichot and Penpicha Sangsa-nga | [GitHub](https://github.com/ekapolc/gowajee_corpus)          |
 | Lotus BN            | Thai News Speech Recognition corpus from NECTEC (not full corpus) | 28 minute                           | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/LOTUS-BN.zip) |
 | Lotus Cell          | Thai Speech corpus over the phone. (not full corpus)         | 11 hours                            | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/LOTUS-cell-v1.0.zip) |
+
+[up to menu](#corpusdataset)
+
+### Speech Emotion
+
+| Name                        | Description                             | Size     | License      | Creator                                        | Download                                                     |
+| --------------------------- | --------------------------------------- | -------- | ------------ | ---------------------------------------------- | ------------------------------------------------------------ |
+| Thai Speech Emotion Dataset | Thai Speech Emotion Recognition Dataset | 36 hours | CC BY-SA 4.0 | AI Research Institute of Thailand (AIResearch) | [AIResearch](https://airesearch.in.th/releases/speech-emotion-dataset/) |
 
 [up to menu](#corpusdataset)
 
