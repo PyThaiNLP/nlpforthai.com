@@ -30,6 +30,7 @@
 | [Multi Candidate Thai Word Segmentation](https://github.com/earthy123/Multi-Candidate-Word-Segmentation) | Most existing word segmentation methods output one single segmentation solution. | active   | Python 3.X          | MIT License                |
 | [PhlongTaIam](https://github.com/veer66/PhlongTaIam)         | PHP Thai word breaker                                        | active   | PHP                 | LGPL-2.1 License           |
 | [Chamkho](https://github.com/veer66/chamkho)         | Rust Thai word breaker                                        | active   | Rust                 | LGPL-3 License           |
+| [oxidized-thainlp](https://github.com/PyThaiNLP/oxidized-thainlp) | Thai Natural Language Processing in Rust, with Python-binding. | active | Python & Rust | Apache License 2.0 |
 
 [up to menu](#software)
 
@@ -118,5 +119,11 @@
 | Name                                                    | Description         | Status | Language   | License            |
 | ------------------------------------------------------- | ------------------- | ------ | ---------- | ------------------ |
 | [TTG](https://github.com/PyThaiNLP/Thai-Text-Generator) | Thai Text Generator | active | Python 3.X | Apache License 2.0 |
+
+### Speech Emotion Recognition
+
+| Name                                                         | Description                                                  | Status | Language   | License            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
+| [Vistec-AIS Speech Emotion Recognition](https://github.com/vistec-AI/vistec-ser) | Speech Emotion Recognition Model and Inferencing using Pytorch | active | Python 3.X | Apache License 2.0 |
 
 [up to menu](#software)
