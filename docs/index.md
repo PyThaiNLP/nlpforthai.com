@@ -1,6 +1,6 @@
 # NLP For Thai
 
-It's Thai NLP homepage. All is Open Source. [Work in process...]
+It's Thai NLP homepage. All is Open Source. 
 
 Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
@@ -9,8 +9,8 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 - [Software](./software)
 - [Corpus/Dataset](./corpus)
 - [Tools](./tools)
-- [Pre-trained models/Models](./pretrained)
-- [Benchmarks](./benchmarks)
+- [Pre-trained models/Models](./pretrained) [Work in process...]
+- [Benchmarks](./benchmarks) [Work in process...]
 
 **Contributors**
 
@@ -19,3 +19,13 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 </a>
 
 Thanks all the [contributors](https://github.com/PyThaiNLP/nlpforthai.com/graphs/contributors). (Image made with [contributors-img](https://contributors-img.firebaseapp.com))
+
+**How to Contribute**
+
+You can fork and send your pull request at [https://github.com/PyThaiNLP/nlpforthai.com](https://github.com/PyThaiNLP/nlpforthai.com)
+
+
+
+We build Thai NLP.
+
+PyThaiNLP
