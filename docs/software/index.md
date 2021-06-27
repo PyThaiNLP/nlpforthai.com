@@ -114,16 +114,27 @@
 | --------------------------------------------------- | ----------------------- | ------ | ---------- | ------------------ |
 | [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0 |
 
+[up to menu](#software)
+
 ### Text Generator
 
 | Name                                                    | Description         | Status | Language   | License            |
 | ------------------------------------------------------- | ------------------- | ------ | ---------- | ------------------ |
 | [TTG](https://github.com/PyThaiNLP/Thai-Text-Generator) | Thai Text Generator | active | Python 3.X | Apache License 2.0 |
 
+[up to menu](#software)
+
 ### Speech Emotion Recognition
 
 | Name                                                         | Description                                                  | Status | Language   | License            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
 | [Vistec-AIS Speech Emotion Recognition](https://github.com/vistec-AI/vistec-ser) | Speech Emotion Recognition Model and Inferencing using Pytorch | active | Python 3.X | Apache License 2.0 |
+
+[up to menu](#software)
+
+### Sentiment Analysis
+| Name                                                         | Description                                                  | Status | Language   | License            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
+| [`thai_sentiment`](https://github.com/cstorm125/thai_sentiment) | The naive sentiment classification function based on NBSVM trained on [wisesight_sentiment](https://huggingface.co/datasets/wisesight_sentiment) | active | Python 3.X | Apache License 2.0 |
 
 [up to menu](#software)
