@@ -124,6 +124,14 @@
 
 [up to menu](#software)
 
+### Text-to-Speech
+
+| Name                                                      | Description                                                  | Status | Language   | License            |
+| --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
+| [Thai TTS Tacotron](https://github.com/Prim9000/Thai_TTS) | Thai_TTS is the project about training "Text to Speech in Thai" using Tacotron2 by NVIDIA. | active | Python 3.X | Apache License 2.0 |
+
+[up to menu](#software)
+
 ### Speech Emotion Recognition
 
 | Name                                                         | Description                                                  | Status | Language   | License            |
@@ -136,5 +144,14 @@
 | Name                                                         | Description                                                  | Status | Language   | License            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
 | [`thai_sentiment`](https://github.com/cstorm125/thai_sentiment) | The naive sentiment classification function based on NBSVM trained on [wisesight_sentiment](https://huggingface.co/datasets/wisesight_sentiment) | active | Python 3.X | Apache License 2.0 |
+
+[up to menu](#software)
+
+### Machine Translation
+
+| Name                                                         | Description                                                  | Status | Language   | License            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
+| [Lalita Chinese-Thai Machine Translation](https://www.facebook.com/aibuildersx/posts/166736255494822) | Chinese-Thai Machine Translation by AI Builder               | active | Python 3.X | Apache License 2.0 |
+| [English-Thai Machine Translation Models](https://airesearch.in.th/releases/machine-translation-models/) | English-Thai Machine Translation Models by VISTEC-depa Thailand Artificial Intelligence Research Institute | active | Python 3.X | Apache License 2.0 |
 
 [up to menu](#software)
