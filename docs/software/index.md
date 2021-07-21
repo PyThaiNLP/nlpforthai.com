@@ -155,3 +155,11 @@
 | [English-Thai Machine Translation Models](https://airesearch.in.th/releases/machine-translation-models/) | English-Thai Machine Translation Models by VISTEC-depa Thailand Artificial Intelligence Research Institute | active | Python 3.X | Apache License 2.0 |
 
 [up to menu](#software)
+
+### Image Captioning
+
+| Name                                                         | Description                              | Status | Language   | License |
+| ------------------------------------------------------------ | ---------------------------------------- | ------ | ---------- | ------- |
+| [Image Captioning in Thai: AI ช่วยผู้พิการทางสายตา](https://github.com/Jannyney/ImageCaptioningThai) | Image Captioning in Thai from AI Builder |        | Python 3.X | ?       |
+
+[up to menu](#software)
