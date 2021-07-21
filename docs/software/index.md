@@ -158,8 +158,8 @@
 
 ### Image Captioning
 
-| Name                                                         | Description                              | Status | Language   | License |
-| ------------------------------------------------------------ | ---------------------------------------- | ------ | ---------- | ------- |
-| [Image Captioning in Thai: AI ช่วยผู้พิการทางสายตา](https://github.com/Jannyney/ImageCaptioningThai) | Image Captioning in Thai from AI Builder |        | Python 3.X | ?       |
+| Name                                                         | Description                                                  | Status | Language   | License |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------- |
+| [Image Captioning in Thai: AI ช่วยผู้พิการทางสายตา](https://github.com/Jannyney/ImageCaptioningThai) | Image Captioning in Thai from AI Builder https://www.facebook.com/aibuildersx/posts/175053151329799 |        | Python 3.X | ?       |
 
 [up to menu](#software)
