@@ -78,6 +78,7 @@
 | Asian Language Treebank Parallel Corpus                  | This is the Asian Language Treebank (ALT) Parallel Corpus.   | train: 1,698 articles, 18,088 sentences<br>dev: 98 articles, 1,000 sentences<br>test: 97 articles, 1,018 sentences | CC BY 4.0       |                                                              | [Website](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) |
 | WikiLingua                                               | A Multilingual Abstractive Summarization Dataset             | 14,770 parallel (for thai)                                   | CC0-1.0 License | Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown | [GitHub](https://github.com/esdurmus/Wikilingua)             |
 | Web Inventory of Transcribed & Translated(WIT) Ted Talks | The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform. |                                                              |                 |                                                              | [Hugging Face](https://huggingface.co/datasets/ted_talks_iwslt) |
+| generated_reviews_enth                                   | generated_reviews_enth is created as part of scb-mt-en-th-2020 for machine translation task. |                                                              | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-ai/generated_reviews_enth) |
 
 [up to menu](#corpusdataset)
 
@@ -165,13 +166,14 @@
 
 ### Named Entity Recognition
 
-| Name          | Description                                                  | Size | License         | Creator                     | Download                                                     |
-| ------------- | ------------------------------------------------------------ | ---- | --------------- | --------------------------- | ------------------------------------------------------------ |
-| นัชชา ถิระสาโรช | corpora by Wirote Aroonmanakun's students                    |      | ?               | นัชชา ถิระสาโรช               | [นัชชา ถิระสาโรช Data](http://pioneer.chula.ac.th/~awirote/Data-Nutcha.zip) |
-| ศศิวิมล กาลันสีมา | corpora by Wirote Aroonmanakun's students                    |      | ?               | ศศิวิมล กาลันสีมา               | [ศศิวิมล กาลันสีมา Data](http://pioneer.chula.ac.th/~awirote/Data-Sasiwimon.zip) |
-| ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students                    |      | ?               | ณัฐดาพร เลิศชีวะ               | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
-| Thai NER      | Thai NER project is part of PyThaiNLP.                       |      | CC BY 3.0       | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/thai-ner)             |
-| THAI-NEST     | Thai Named Entity tagging Corpus from NECTEC & Thammasat University |      | CC BY-SA-NC 3.0 | NECTEC                      | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Name          | Description                                                  | Size | License         | Creator                                        | Download                                                     |
+| ------------- | ------------------------------------------------------------ | ---- | --------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| นัชชา ถิระสาโรช | corpora by Wirote Aroonmanakun's students                    |      | ?               | นัชชา ถิระสาโรช                                  | [นัชชา ถิระสาโรช Data](http://pioneer.chula.ac.th/~awirote/Data-Nutcha.zip) |
+| ศศิวิมล กาลันสีมา | corpora by Wirote Aroonmanakun's students                    |      | ?               | ศศิวิมล กาลันสีมา                                  | [ศศิวิมล กาลันสีมา Data](http://pioneer.chula.ac.th/~awirote/Data-Sasiwimon.zip) |
+| ณัฐดาพร เลิศชีวะ | corpora by Wirote Aroonmanakun's students                    |      | ?               | ณัฐดาพร เลิศชีวะ                                  | [ณัฐดาพร เลิศชีวะ Data](http://pioneer.chula.ac.th/~awirote/Data-Nattadaporn.zip) |
+| Thai NER      | Thai NER project is part of PyThaiNLP.                       |      | CC BY 3.0       | Wannaphong Phatthiyaphaibun                    | [GitHub](https://github.com/wannaphong/thai-ner)             |
+| THAI-NEST     | Thai Named Entity tagging Corpus from NECTEC & Thammasat University |      | CC BY-SA-NC 3.0 | NECTEC                                         | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| WikiANN       | WikiANN (sometimes called PAN-X) is a multilingual named entity recognition dataset consisting of Wikipedia articles annotated with LOC (location), PER (person), and ORG (organisation) tags in the IOB2 format. |      |                 | Rahimi, Afshin  and Li, Yuan  and Cohn, Trevor | [GitHub](https://github.com/afshinrahimi/mmner)              |
 
 [up to menu](#corpusdataset)
 
