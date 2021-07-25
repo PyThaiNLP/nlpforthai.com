@@ -3,6 +3,8 @@
 
 **Menu**
 
+- [Word Segmentation](#word-segmentation)
+
 [WIP]
 
 ### Word Segmentation

@@ -3,15 +3,18 @@
 
 **Menu**
 
-[WIP]
+- [Text summarization](#text-summarization)
+- [Word embeddings](#word-embeddings)
+- [Language model](#language-model)
+- [Sentence Embedding](#sentence-embedding)
 
 ## Text summarization
 
-| Model                | Detail | Paper                                                        | Source                                                       |
-| -------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| mT5: Multilingual T5 |        | [mT5: A massively multilingual pre-trained text-to-text transformer](https://arxiv.org/abs/2010.11934) | [GitHub](https://github.com/google-research/multilingual-t5) |
-|                      |        |                                                              |                                                              |
-|                      |        |                                                              |                                                              |
+| Model                | Detail                                                       | Paper                                                        | Download                                                     |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| mT5: Multilingual T5 | Multilingual T5 (mT5) is a massively multilingual pretrained text-to-text transformer model, trained following a similar recipe as T5. | [mT5: A massively multilingual pre-trained text-to-text transformer](https://arxiv.org/abs/2010.11934) | [GitHub](https://github.com/google-research/multilingual-t5) |
+| BertSum              | Trained Model from Nakhun Chumpolsathien & Tanachat Arayachutinan | Using Knowledge Distillation from Keyword Extraction to Improve the Informativeness of Neural Cross-lingual Summarization | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS)    |
+| ARedSum              | Trained Model from Nakhun Chumpolsathien & Tanachat Arayachutinan | Using Knowledge Distillation from Keyword Extraction to Improve the Informativeness of Neural Cross-lingual Summarization | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS)    |
 
 ... [WIP]
 
@@ -20,6 +23,7 @@
 | Name                           | Detail                                                       | Download                                                     |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ConceptNet Numberbatch         | ConceptNet Numberbatch is a set of semantic vectors (also known as word embeddings) than can be used directly as a representation of word meanings or as a starting point for further machine learning. | [GitHub](https://github.com/commonsense/conceptnet-numberbatch) |
+| FastText Word vectors          | The pre-trained word vectors for 157 languages, trained on Common Crawl and Wikipedia using fastText. | [Website](https://fasttext.cc/docs/en/crawl-vectors.html)    |
 | Thai2Fit (old Thai2Vec)        |                                                              | [Homepage](https://github.com/cstorm125/thai2fit)<br />Download word2vec:  [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp-corpus/releases/tag/thai2fit_wv-v0.1) |
 | LTW2V: The Large Thai Word2Vec | **LTW2V** is The large Thai Word2Vec. It built with oxidized-thainlp from OSCAR Corpus (Open Super-large Crawled Aggregated coRpus). | [GitHub](https://github.com/PyThaiNLP/large-thaiword2vec)    |
 
@@ -41,7 +45,8 @@
 
 ## Sentence Embedding
 
-| Name  | Detail                                                       | Owner    | Download                                                     |
-| ----- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
-| LASER | LASER Language-Agnostic SEntence Representations             | Facebook | [GitHub](https://github.com/facebookresearch/LASER)          |
-| MUSE  | Multilingual Universal Sentence Encoderfor Semantic Retrieval | Google   | [Tensorflow Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) |
+| Name  | Detail                                                       | Paper                                                        | Owner    | Download                                                     |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| LASER | LASER Language-Agnostic SEntence Representations             | [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond](https://arxiv.org/abs/1812.10464) | Facebook | [GitHub](https://github.com/facebookresearch/LASER)          |
+| MUSE  | Multilingual Universal Sentence Encoderfor Semantic Retrieval | [Multilingual Universal Sentence Encoder for Semantic Retrieval](https://arxiv.org/abs/1907.04307) | Google   | [Tensorflow Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) |
+| LaBSE | Language-Agnostic BERT Sentence Embedding by Google AI.      | [Language-agnostic BERT Sentence Embedding](https://arxiv.org/abs/2007.01852) | Google   |                                                              |

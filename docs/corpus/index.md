@@ -198,6 +198,7 @@
 | ThaiGov corpus                | Data from Thai government website.                           |                                                              | public domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thaigov-corpus)        |
 | ThaiGov V2 Corpus             | Thai News Dataset from Thai government website.              |                                                              | public domain   | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thaigov-v2-corpus)     |
 | OSCAR Corpus                  | OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture. | 951,743,087 words                                            | public domain   |                             | [Homepage](https://oscar-corpus.com/)                        |
+| mC4                           | A multilingual colossal, cleaned version of Common Crawl's web crawl corpus. |                                                              |                 |                             | [Hugging Face](https://huggingface.co/datasets/mc4)          |
 
 [up to menu](#corpusdataset)
 
