@@ -106,10 +106,11 @@
 
 ### Text Summarization
 
-| Name    | Description                                      | Size                      | License     | Creator               | Download                                                  |
-| ------- | ------------------------------------------------ | ------------------------- | ----------- | --------------------- | --------------------------------------------------------- |
-| ThaiSum | The largest dataset for Thai text summarization. | 350,000 articles (2.9 GB) | MIT Licence | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
-| TR-TPBS | A dataset for Thai text summarization.           | 310K articles             | MIT License | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS) |
+| Name       | Description                                      | Size                       | License         | Creator                                                      | Download                                                  |
+| ---------- | ------------------------------------------------ | -------------------------- | --------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
+| ThaiSum    | The largest dataset for Thai text summarization. | 350,000 articles (2.9 GB)  | MIT Licence     | Nakhun Chumpolsathien                                        | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
+| TR-TPBS    | A dataset for Thai text summarization.           | 310K articles              | MIT License     | Nakhun Chumpolsathien                                        | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS) |
+| WikiLingua | A Multilingual Abstractive Summarization Dataset | 14,770 parallel (for thai) | CC0-1.0 License | Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown | [GitHub](https://github.com/esdurmus/Wikilingua)          |
 
 [up to menu](#corpusdataset)
 
