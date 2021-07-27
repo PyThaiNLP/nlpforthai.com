@@ -4,6 +4,7 @@
 **Menu**
 
 - [Word Segmentation Corpus](#word-segmentation-corpus)
+- [Sentence Segmentation](#sentence-segmentation)
 - [Part of Speech](#part-of-speech)
 - [Treebank](#treebank)
 - [Natural Language Inference](#natural-language-inference)
@@ -27,6 +28,8 @@
 
 ### Word Segmentation Corpus
 
+for segment thai text
+
 | Name                                           | Description                                                  | Size                                                         | License                                    | Creator                                                      | Download                                                     |
 | ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | BEST I (BEST 2009)                             | Benchmark for Enhancing the Standard of Thai language processing | 5,000,000 word                                               | CC BY-SA-NC 4.0                            | NECTEC                                                       | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) and [Mirror from @korakot](https://github.com/korakot/corpus/tree/main/BEST) |
@@ -37,6 +40,14 @@
 | Corpus Komped Poem (windy part)                |                                                              |                                                              |                                            | Pattarawat Chormai                                           | [GitHub](https://github.com/PyThaiNLP/corpus-komped-poem-windy-part) |
 
 [up to menu](#corpusdataset)
+
+### Sentence Segmentation
+
+| Name          | Description                                                  | Size                                                         | License                                    | Creator                                        | Download                                                     |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
+| Orchid Corpus | Thai part of speech (POS) tagged corpus                      | 5,200 sentences                                              | CC BY-SA-NC 4.0                            | NECTEC                                         | [Mirror from @wannaphong](https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0) |
+| LST20 Corpus  | LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing. | 3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences | ? (Free for research and open source only) | NECTEC                                         | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Fake review   |                                                              |                                                              | CC BY-SA 4.0                               | AI Research Institute of Thailand (AIResearch) | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
 
 ### Part of Speech
 
@@ -67,6 +78,8 @@
 [up to menu](#corpusdataset)
 
 ### Parallel Corpus
+
+for Machine Translate
 
 | Name                                                     | Description                                                  | Size                                                         | License         | Creator                                                      | Download                                                     |
 | -------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
