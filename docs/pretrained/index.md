@@ -7,6 +7,7 @@
 - [Word embeddings](#word-embeddings)
 - [Language model](#language-model)
 - [Sentence Embedding](#sentence-embedding)
+- [Question Answer](#question-answer)
 
 ## Text summarization
 
@@ -50,3 +51,10 @@
 | LASER | LASER Language-Agnostic SEntence Representations             | [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond](https://arxiv.org/abs/1812.10464) | Facebook | [GitHub](https://github.com/facebookresearch/LASER)          |
 | MUSE  | Multilingual Universal Sentence Encoderfor Semantic Retrieval | [Multilingual Universal Sentence Encoder for Semantic Retrieval](https://arxiv.org/abs/1907.04307) | Google   | [Tensorflow Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) |
 | LaBSE | Language-Agnostic BERT Sentence Embedding by Google AI.      | [Language-agnostic BERT Sentence Embedding](https://arxiv.org/abs/2007.01852) | Google   |                                                              |
+
+## Question Answer
+
+
+| Name                                      | Detail                                                       | Owner                                       | Download                                                     |
+| ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ |
+| Zero-shot multilingual QA from DeepPavlov | DeepPavlov is an open-source conversational AI library built on TensorFlow, Keras and PyTorch. | Neural Networks and Deep Learning lab, MIPT | [GitHub](https://github.com/deepmipt/DeepPavlov)<br />[Colab](https://colab.research.google.com/github/deepmipt/dp_tutorials/blob/master/Tutorial_2_DeepPavlov_BERT_transfer_learning.ipynb) |
