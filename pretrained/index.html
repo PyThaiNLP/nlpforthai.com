@@ -1,0 +1,864 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.2">
+    
+    
+      
+        <title>Pre-trained models/Models - NLP For Thai</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1118c9be.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ba0d045b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pre-trained-modelsmodels" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="NLP For Thai" class="md-header__button md-logo" aria-label="NLP For Thai" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NLP For Thai
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pre-trained models/Models
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="NLP For Thai" class="md-nav__button md-logo" aria-label="NLP For Thai" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    NLP For Thai
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        NLP For Thai
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Benchmarks
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Benchmarks" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Benchmarks
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../benchmarks/" class="md-nav__link">
+        Benchmarks
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Corpus
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Corpus" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Corpus
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corpus/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        Pretrained
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Pretrained" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pretrained
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Pre-trained models/Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Pre-trained models/Models
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#text-summarization" class="md-nav__link">
+    Text summarization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#word-embeddings" class="md-nav__link">
+    Word embeddings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language-model" class="md-nav__link">
+    Language model
+  </a>
+  
+    <nav class="md-nav" aria-label="Language model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notebook" class="md-nav__link">
+    Notebook
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentence-embedding" class="md-nav__link">
+    Sentence Embedding
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-answer" class="md-nav__link">
+    Question Answer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-generation" class="md-nav__link">
+    Text Generation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Software
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        Software
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Tools
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#text-summarization" class="md-nav__link">
+    Text summarization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#word-embeddings" class="md-nav__link">
+    Word embeddings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language-model" class="md-nav__link">
+    Language model
+  </a>
+  
+    <nav class="md-nav" aria-label="Language model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notebook" class="md-nav__link">
+    Notebook
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentence-embedding" class="md-nav__link">
+    Sentence Embedding
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-answer" class="md-nav__link">
+    Question Answer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-generation" class="md-nav__link">
+    Text Generation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="pre-trained-modelsmodels">Pre-trained models/Models</h1>
+<p><a href="../">&lt;- back to homepage</a></p>
+<p><strong>Menu</strong></p>
+<ul>
+<li><a href="#text-summarization">Text summarization</a></li>
+<li><a href="#word-embeddings">Word embeddings</a></li>
+<li><a href="#language-model">Language model</a></li>
+<li><a href="#sentence-embedding">Sentence Embedding</a></li>
+<li><a href="#question-answer">Question Answer</a></li>
+<li><a href="#text-generation">Text Generation</a></li>
+</ul>
+<h2 id="text-summarization">Text summarization</h2>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Detail</th>
+<th>Paper</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mT5: Multilingual T5</td>
+<td>Multilingual T5 (mT5) is a massively multilingual pretrained text-to-text transformer model, trained following a similar recipe as T5.</td>
+<td><a href="https://arxiv.org/abs/2010.11934">mT5: A massively multilingual pre-trained text-to-text transformer</a></td>
+<td><a href="https://github.com/google-research/multilingual-t5">GitHub</a></td>
+</tr>
+<tr>
+<td>BertSum</td>
+<td>Trained Model from Nakhun Chumpolsathien &amp; Tanachat Arayachutinan</td>
+<td>Using Knowledge Distillation from Keyword Extraction to Improve the Informativeness of Neural Cross-lingual Summarization</td>
+<td><a href="https://github.com/nakhunchumpolsathien/TR-TPBS">GitHub</a></td>
+</tr>
+<tr>
+<td>ARedSum</td>
+<td>Trained Model from Nakhun Chumpolsathien &amp; Tanachat Arayachutinan</td>
+<td>Using Knowledge Distillation from Keyword Extraction to Improve the Informativeness of Neural Cross-lingual Summarization</td>
+<td><a href="https://github.com/nakhunchumpolsathien/TR-TPBS">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<p>... [WIP]</p>
+<h2 id="word-embeddings">Word embeddings</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ConceptNet Numberbatch</td>
+<td>ConceptNet Numberbatch is a set of semantic vectors (also known as word embeddings) than can be used directly as a representation of word meanings or as a starting point for further machine learning.</td>
+<td><a href="https://github.com/commonsense/conceptnet-numberbatch">GitHub</a></td>
+</tr>
+<tr>
+<td>FastText Word vectors</td>
+<td>The pre-trained word vectors for 157 languages, trained on Common Crawl and Wikipedia using fastText.</td>
+<td><a href="https://fasttext.cc/docs/en/crawl-vectors.html">Website</a></td>
+</tr>
+<tr>
+<td>Thai2Fit (old Thai2Vec)</td>
+<td></td>
+<td><a href="https://github.com/cstorm125/thai2fit">Homepage</a><br />Download word2vec:  <a href="https://github.com/PyThaiNLP/pythainlp-corpus/releases/tag/thai2fit_wv-v0.1">PyThaiNLP</a></td>
+</tr>
+<tr>
+<td>LTW2V: The Large Thai Word2Vec</td>
+<td><strong>LTW2V</strong> is The large Thai Word2Vec. It built with oxidized-thainlp from OSCAR Corpus (Open Super-large Crawled Aggregated coRpus).</td>
+<td><a href="https://github.com/PyThaiNLP/large-thaiword2vec">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<p>... [WIP]</p>
+<h2 id="language-model">Language model</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Owner</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thai2Fit</td>
+<td>ULMFit Language Modeling, Text Feature Extraction and Text Classification in Thai Language. Created as part of pyThaiNLP with ULMFit implementation from fast.ai</td>
+<td>Charin Polpanumas</td>
+<td><a href="https://github.com/cstorm125/thai2fit">GitHub</a></td>
+</tr>
+<tr>
+<td>BERT-th</td>
+<td>BERT pre-training in Thai language</td>
+<td>ThAIKeras</td>
+<td><a href="https://github.com/ThAIKeras/bert">GitHub</a></td>
+</tr>
+<tr>
+<td>BERT-Base, Multilingual Cased</td>
+<td>104 languages, 12-layer, 768-hidden, 12-heads, 110M parameters</td>
+<td>Google</td>
+<td><a href="https://github.com/google-research/bert">GitHub</a></td>
+</tr>
+<tr>
+<td>bert-base-th-cased</td>
+<td>We are sharing smaller versions of bert-base-multilingual-cased that handle a custom number of languages.</td>
+<td>Geotrend</td>
+<td><a href="https://huggingface.co/Geotrend/bert-base-th-cased">Hugging Face</a></td>
+</tr>
+<tr>
+<td>WangchanBERTa</td>
+<td>Pretraining transformer-based Thai Language Models</td>
+<td>AI Research Institute of Thailand (AIResearch)</td>
+<td><a href="https://github.com/vistec-AI/thai2transformers">GitHub</a> &amp; <a href="https://huggingface.co/airesearch">Hugging Face</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="notebook">Notebook</h3>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1BQ24QBflQujSsi7qjhGfmHn6H_thZvfb?usp=sharing">Load BERT-th, BERT-Base, Multilingual Cased and bert-base-th-cased with Hugging Face in Python</a></li>
+</ul>
+<h2 id="sentence-embedding">Sentence Embedding</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Paper</th>
+<th>Owner</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LASER</td>
+<td>LASER Language-Agnostic SEntence Representations</td>
+<td><a href="https://arxiv.org/abs/1812.10464">Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond</a></td>
+<td>Facebook</td>
+<td><a href="https://github.com/facebookresearch/LASER">GitHub</a></td>
+</tr>
+<tr>
+<td>MUSE</td>
+<td>Multilingual Universal Sentence Encoderfor Semantic Retrieval</td>
+<td><a href="https://arxiv.org/abs/1907.04307">Multilingual Universal Sentence Encoder for Semantic Retrieval</a></td>
+<td>Google</td>
+<td><a href="https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3">Tensorflow Hub</a></td>
+</tr>
+<tr>
+<td>LaBSE</td>
+<td>Language-Agnostic BERT Sentence Embedding by Google AI.</td>
+<td><a href="https://arxiv.org/abs/2007.01852">Language-agnostic BERT Sentence Embedding</a></td>
+<td>Google</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="question-answer">Question Answer</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Owner</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zero-shot multilingual QA from DeepPavlov</td>
+<td>DeepPavlov is an open-source conversational AI library built on TensorFlow, Keras and PyTorch.</td>
+<td>Neural Networks and Deep Learning lab, MIPT</td>
+<td><a href="https://github.com/deepmipt/DeepPavlov">GitHub</a><br /><a href="https://colab.research.google.com/github/deepmipt/dp_tutorials/blob/master/Tutorial_2_DeepPavlov_BERT_transfer_learning.ipynb">Colab</a></td>
+</tr>
+</tbody>
+</table>
+<p>... [WIP]</p>
+<h2 id="text-generation">Text Generation</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Owner</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flax's GPT-2 base</td>
+<td>GPT-2 Base Thai is a causal language model based on the OpenAI GPT-2 model. It was trained on the OSCAR dataset, specifically the unshuffled_deduplicated_th subset. The model was trained from scratch and achieved an evaluation loss of 1.708 and an evaluation perplexity of 5.516.</td>
+<td>Flax Community</td>
+<td><a href="https://huggingface.co/flax-community/gpt2-base-thai">Hugging Face</a></td>
+</tr>
+<tr>
+<td>GPT-Neo</td>
+<td>GPT-Neo 1.3B is a transformer model designed using EleutherAI's replication of the GPT-3 architecture. GPT-Neo refers to the class of models, while 1.3B represents the number of parameters of this particular pre-trained model. (It is not training for Thai but It's can working with Thai)</td>
+<td>EleutherAI</td>
+<td><a href="https://huggingface.co/EleutherAI">Hugging Face</a></td>
+</tr>
+<tr>
+<td>Thai GPT Next</td>
+<td>It is fine-tune the GPT-Neo model for Thai language.</td>
+<td>Wannaphong Phatthiyaphaibun</td>
+<td><a href="https://github.com/wannaphong/thaigpt-next/">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../corpus/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Index" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Index
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../software/" class="md-footer__link md-footer__link--next" aria-label="Next: Software" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Software
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.2b46852b.min.js"></script>
+      
+    
+  </body>
+</html>
