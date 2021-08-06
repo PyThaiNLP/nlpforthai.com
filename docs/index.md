@@ -6,11 +6,8 @@ Website: [NLPForThai.com](https://nlpforthai.com) maintained by PyThaiNLP
 
 **Menu**
 
-- [Software](./software)
-- [Corpus/Dataset](./corpus)
-- [Tools](./tools)
-- [Pre-trained models/Models](./pretrained) [Work in process...]
-- [Benchmarks](./benchmarks) [Work in process...]
+- [Tasks](./tasks)
+- [Other](./other)
 
 **Contributors**
 

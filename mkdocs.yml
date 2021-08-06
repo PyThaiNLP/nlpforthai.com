@@ -1,1 +1,3 @@
 site_name: NLP For Thai
+theme:
+  name: 'rtd-dropdown'

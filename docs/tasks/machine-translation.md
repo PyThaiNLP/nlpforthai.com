@@ -1,0 +1,28 @@
+# Machine Translation
+
+## Corpus
+
+| Name                                                     | Description                                                  | Size                                                         | License         | Creator                                                      | Download                                                     |
+| -------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| TALPCo                                                   | TUFS Asian Language Parallel Corpus                          | 1,327 sent                                                   | CC BY 4.0       | Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura | [GitHub](https://github.com/matbahasa/TALPCo)                |
+| scb-mt-en-th-2020                                        | English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB) | 1,001,752 segment pairs                                      | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0) |
+| Software Documentation Data Set for Machine Translation  | A parallel evaluation data set of SAP software documentation with document structure annotation | dev: 2048  segment pairs, test: 2050 segment pairs           | CC BY-NC 4.0    | SAP                                                          | [GitHub](https://github.com/SAP/software-documentation-data-set-for-machine-translation) |
+| Thai Lao Parallel corpus                                 | Thai Lao Parallel corpus                                     |                                                              | CC0-1.0 License | Wannaphong Phatthiyaphaibun                                  | [GitHub](https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus) |
+| Contradictory, My Dear Watson Translated text            | Non-English text converted to English language               |                                                              |                 |                                                              | [Kaggle](https://www.kaggle.com/narendrageek/my-dear-watson-translated-text/version/1) |
+| Asian Language Treebank Parallel Corpus                  | This is the Asian Language Treebank (ALT) Parallel Corpus.   | train: 1,698 articles, 18,088 sentences<br>dev: 98 articles, 1,000 sentences<br>test: 97 articles, 1,018 sentences | CC BY 4.0       |                                                              | [Website](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) |
+| WikiLingua                                               | A Multilingual Abstractive Summarization Dataset             | 14,770 parallel (for thai)                                   | CC0-1.0 License | Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown | [GitHub](https://github.com/esdurmus/Wikilingua)             |
+| Web Inventory of Transcribed & Translated(WIT) Ted Talks | The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform. |                                                              |                 |                                                              | [Hugging Face](https://huggingface.co/datasets/ted_talks_iwslt) |
+| generated_reviews_enth                                   | generated_reviews_enth is created as part of scb-mt-en-th-2020 for machine translation task. |                                                              | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-ai/generated_reviews_enth) |
+
+## Software
+
+| Name                                                | Description             | Status | Language   | License                    |
+| --------------------------------------------------- | ----------------------- | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0         |
+
+## Pretrained
+
+| Name                                                         | Description                                                  | Status | Language   | License            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
+| [Lalita Chinese-Thai Machine Translation](https://www.facebook.com/aibuildersx/posts/166736255494822) | Chinese-Thai Machine Translation by AI Builder               | active | Python 3.X | Apache License 2.0 |
+| [English-Thai Machine Translation Models](https://airesearch.in.th/releases/machine-translation-models/) | English-Thai Machine Translation Models by VISTEC-depa Thailand Artificial Intelligence Research Institute | active | Python 3.X | Apache License 2.0 |
