@@ -30,7 +30,7 @@ BEST I is the Benchmark for Enhancing the Standard of Thai language processing.
 
 ##### Benchmarks
 
-[WIP]
+We are not  benchmarks for this corpus because we have not an answer of testset.
 
 
 ### LST20 Corpus
@@ -65,7 +65,7 @@ Orchid Corpus is Thai part of speech (POS) tagged corpus with word segmentation 
 
 ##### Benchmarks
 
-[WIP]
+Orchid Corpus is not have the testset.
 
 
 ### Wisesight Corpus
@@ -83,11 +83,13 @@ This directory contains samples of Thai social media text, tokenized by humans. 
 
 Thai National Historical Corpus or TNHC tokenized by humans.
 
-- Number of words:  words
+- Number of words:  ? words
+- 47 documents, 756,478 lines, 13,361,142 characters
 
-##### Benchmarks
+**Details**
 
-[WIP]
+- Creator: Jitkapat Sawatphol
+- Download: [GitHub](https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0)
 
 ### Corpus Komped Poem (windy part)
 
