@@ -11,9 +11,21 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: nlpforthai.com
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+            python-version: '3.8'
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-rtd-dropdown
+      - name: Build docs
+        run: |
+          mkdocs build
+          cp CNAME ./site/CNAME
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            BRANCH: gh-pages # The branch the action should deploy to.
+            FOLDER: site # The folder the action should deploy.
+            CLEAN: true # Automatically remove deleted files from the deploy branch
