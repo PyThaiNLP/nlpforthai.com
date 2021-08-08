@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Spell Correct - NLP For Thai</title>
+  <title>Spoken Language Understanding - NLP For Thai</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Spell Correct";
-    var mkdocs_page_input_path = "tasks/spell-correct.md";
+    var mkdocs_page_name = "Spoken Language Understanding";
+    var mkdocs_page_input_path = "tasks/slu.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -175,9 +175,32 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../slu/">Spoken Language Understanding</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Spoken Language Understanding
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#corpus">Corpus</a>
+        </li>
+    
+    </ul>
   </li>
+
+
+  
         
           
 
@@ -203,32 +226,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        Spell Correct
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#software">Software</a>
-        </li>
-    
-    </ul>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../spell-correct/">Spell Correct</a>
   </li>
-
-
-  
         
           
 
@@ -301,7 +301,7 @@
         
       
     
-    <li>Spell Correct</li>
+    <li>Spoken Language Understanding</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -311,32 +311,35 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="spell-correct">Spell Correct</h1>
-<h2 id="software">Software</h2>
+                <h1 id="spoken-language-understanding">Spoken Language Understanding</h1>
+<h2 id="corpus">Corpus</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Description</th>
-<th>Status</th>
-<th>Language</th>
+<th>Size</th>
 <th>License</th>
+<th>Creator</th>
+<th>Download</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="http://hunspell.github.io/">Hunspell</a></td>
-<td>Hunspell is the spell checker of LibreOffice, OpenOffice.org, Mozilla Firefox 3 &amp; Thunderbird, Google Chrome.</td>
-<td>active</td>
-<td>C/C++</td>
-<td>GNU Lesser General Public License and Mozilla Public License</td>
+<td>Facebook Multilingual SLU Dataset</td>
+<td>Dataset from <a href="https://aclanthology.org/N19-1380.pdf">Cross-Lingual Transfer Learning for Multilingual Task Oriented Dialog</a></td>
+<td>5k annotated utterance in Thai</td>
+<td></td>
+<td>Facebook</td>
+<td><a href="https://fb.me/multilingual_task_oriented_data">Facebook</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/PyThaiNLP/pythainlp">PyThaiNLP</a></td>
-<td>It's part of PyThaiNLP.</td>
-<td>active</td>
-<td>Python 3.X</td>
-<td>Apache License 2.0</td>
+<td>MTOP: Multilingual TOP</td>
+<td>MTOP comprisingof 100k annotated utterances in 6 languages across 11 domains. dataset from <a href="https://arxiv.org/pdf/2008.09335.pdf">MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark</a></td>
+<td></td>
+<td></td>
+<td>Facebook</td>
+<td><a href="https://fb.me/mtop_dataset">Facebook</a></td>
 </tr>
 </tbody>
 </table>
@@ -347,10 +350,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../syllable-segmentation/" class="btn btn-neutral float-right" title="Syllable Segmentation">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../soundex/" class="btn btn-neutral float-right" title="Soundex">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../speech-synthesis/" class="btn btn-neutral" title="Speech Synthesis"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ser/" class="btn btn-neutral" title="Speech Emotion Recognition"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -376,10 +379,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../speech-synthesis/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../ser/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../syllable-segmentation/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../soundex/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
