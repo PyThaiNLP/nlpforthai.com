@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Word Segmentation - NLP For Thai</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Word Segmentation";
+    var mkdocs_page_input_path = "tasks/word-segmentation.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> NLP For Thai</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../..">NLP For Thai</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../../other/">Other</a>
+  </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">Tasks</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../">Thai NLP Tasks</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../dependency-parser/">Dependency Parser</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../g2p/">Grapheme to Phoneme</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../image-captioning/">Image Captioning</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../language-model/">Language model</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../machine-translation/">Machine Translation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ner/">Named Entity Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../nli/">Natural Language Inference</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ocr/">Optical Character Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../part-of-speech/">Part-of-speech tagging</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../plagiarism/">Plagiarism</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../question-answering/">Question Answering</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../sentence-segmentation/">Sentence Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ser/">Speech Emotion Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../soundex/">Soundex</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../speech-recognition/">Speech Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../speech-synthesis/">Speech Synthesis</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../spell-correct/">Spell Correct</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../syllable-segmentation/">Syllable Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-classification/">Text Classification</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-generation/">Text Generation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-summarization/">Text Summarization</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../treebank/">Treebank</a>
+  </li>
+        
+          
+
+
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Word Segmentation
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+          
+
+  <li class="toctree-l3 current with-children">
+    <a href="#corpus">
+      Corpus
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3 current">
+    <ul class="subnav-l3 current">
+    
+      
+          
+
+  <li class="toctree-l4 current with-children">
+    <a href="#best-i">
+      BEST I
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4 current">
+    <ul class="subnav-l4 current">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#benchmarks">Benchmarks</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#lst20-corpus">
+      LST20 Corpus
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#benchmarks_1">Benchmarks</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#orchid-corpus">
+      Orchid Corpus
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#benchmarks_2">Benchmarks</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#wisesight-corpus">
+      Wisesight Corpus
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#benchmarks_3">Benchmarks</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#thai-national-historical-corpus">Thai National Historical Corpus</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#corpus-komped-poem-windy-part">
+      Corpus Komped Poem (windy part)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#benchmarks_4">Benchmarks</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#vistec-tp-th-21">VISTEC-TP-TH-21</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#software">Software</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#tools">Tools</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">NLP For Thai</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tasks &raquo;</li>
+        
+      
+    
+    <li>Word Segmentation</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="word-segmentation">Word Segmentation</h1>
+<p>for Thai language, Word Segmentation is the first step for process Thai text for segment thai text to words.</p>
+<h2 id="corpus">Corpus</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BEST I (BEST 2009)</td>
+<td>Benchmark for Enhancing the Standard of Thai language processing</td>
+<td>5,000,000 word</td>
+<td>CC BY-SA-NC 4.0</td>
+<td>NECTEC</td>
+<td><a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required) and <a href="https://github.com/korakot/corpus/tree/main/BEST">Mirror from @korakot</a></td>
+</tr>
+<tr>
+<td>LST20 Corpus</td>
+<td>LST20 is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing.</td>
+<td>3,164,864 words, 288,020 named entities, 248,962 clauses, and 74,180 sentences</td>
+<td>? (Free for research and open source only)</td>
+<td>NECTEC</td>
+<td><a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required)</td>
+</tr>
+<tr>
+<td>Wisesight Samples with Word Tokenization Label</td>
+<td>This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full Wisesight Sentiment Corpus.</td>
+<td>160 sentences (wisesight-160) and 1,000 sentences (wiseight-1000)</td>
+<td>CC0-1.0 License</td>
+<td>Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and Attapol Rutherford</td>
+<td><a href="https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization">GitHub</a></td>
+</tr>
+<tr>
+<td>Thai National Historical Corpus (TNHC)</td>
+<td>texts from Thai National Historical Corpus, stored by lines (manually tokenized).</td>
+<td>47 documents, 756,478 lines, 13,361,142 characters</td>
+<td></td>
+<td>Jitkapat Sawatphol</td>
+<td><a href="https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0">GitHub</a></td>
+</tr>
+<tr>
+<td>Orchid Corpus</td>
+<td>Thai part of speech (POS) tagged corpus</td>
+<td>5,200 sentences</td>
+<td>CC BY-SA-NC 3.0</td>
+<td>NECTEC</td>
+<td><a href="https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0">Mirror from @wannaphong</a></td>
+</tr>
+<tr>
+<td>Corpus Komped Poem (windy part)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pattarawat Chormai</td>
+<td><a href="https://github.com/PyThaiNLP/corpus-komped-poem-windy-part">GitHub</a></td>
+</tr>
+<tr>
+<td>VISTEC-TP-TH-21</td>
+<td>The largest social media domain datasets for Thai text processing (word segmentation, misspell correction and detection, and named-entity boundary) called "VISTEC-TP-TH-2021" or VISTEC-2021.</td>
+<td>49,997 sentences with 3.39M words</td>
+<td>CC-BY-SA 3.0</td>
+<td>VISTEC &amp; Chiang Mai University</td>
+<td><a href="https://github.com/mrpeerat/OSKut/tree/main/VISTEC-TP-TH-2021">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="best-i">BEST I</h3>
+<p>BEST I is the Benchmark for Enhancing the Standard of Thai language processing.</p>
+<ul>
+<li>Number of words: 5,000,000 words</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: NECTEC</li>
+<li>License: CC BY-SA-NC 4.0</li>
+<li>Paper:</li>
+<li>Download: <a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required)</li>
+</ul>
+<h5 id="benchmarks">Benchmarks</h5>
+<p>We are not  benchmarks for this corpus because we have not an answer of testset.</p>
+<h3 id="lst20-corpus">LST20 Corpus</h3>
+<p>LST20 Corpus is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing.</p>
+<ul>
+<li>Number of words: 3,164,864 words</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: NECTEC</li>
+<li>License: (Free for research and open source only)</li>
+<li>Paper: <a href="https://arxiv.org/abs/2008.05055">The Annotation Guideline of LST20 Corpus</a></li>
+<li>Download: <a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required)</li>
+</ul>
+<h5 id="benchmarks_1">Benchmarks</h5>
+<p>[WIP]</p>
+<h3 id="orchid-corpus">Orchid Corpus</h3>
+<p>Orchid Corpus is Thai part of speech (POS) tagged corpus with word segmentation corpus.</p>
+<ul>
+<li>Number of words:  words</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: NECTEC</li>
+<li>License: CC BY-SA-NC 3.0</li>
+<li>Paper: <a href="https://www.semanticscholar.org/paper/Thai-Part-of-speech-Tagged-Corpus%3A-ORCHID-Sornlertlamvanich-Takahashi/b2cd2c2b07285f114244a886d02b5b7cb69a203e">Thai Part-of-speech Tagged Corpus: ORCHID</a></li>
+<li>Download: <a href="https://github.com/wannaphong/corpus_mirror/releases/tag/orchid-v1.0">Mirror from @wannaphong</a></li>
+</ul>
+<h5 id="benchmarks_2">Benchmarks</h5>
+<p>Orchid Corpus is not have the testset.</p>
+<h3 id="wisesight-corpus">Wisesight Corpus</h3>
+<p>This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full Wisesight Sentiment Corpus.</p>
+<ul>
+<li><code>wisesight-160</code> has 160 sentences. Number of words: 3,833 words</li>
+<li><code>wiseight-1000</code> has 1,000 sentences. Number of words: 21,745 words</li>
+</ul>
+<h5 id="benchmarks_3">Benchmarks</h5>
+<p>[WIP]</p>
+<h3 id="thai-national-historical-corpus">Thai National Historical Corpus</h3>
+<p>Thai National Historical Corpus or TNHC tokenized by humans.</p>
+<ul>
+<li>Number of words:  ? words</li>
+<li>47 documents, 756,478 lines, 13,361,142 characters</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: Jitkapat Sawatphol</li>
+<li>Download: <a href="https://github.com/jitkapat/thailitcorpus/releases/tag/v.1.0">GitHub</a></li>
+</ul>
+<h3 id="corpus-komped-poem-windy-part">Corpus Komped Poem (windy part)</h3>
+<ul>
+<li>Number of words: 317 words</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: Pattarawat Chormai</li>
+<li>License: CC-BY-SA 3.0</li>
+<li>Paper: -</li>
+<li>Download: <a href="https://github.com/PyThaiNLP/corpus-komped-poem-windy-part">GitHub</a></li>
+</ul>
+<h5 id="benchmarks_4">Benchmarks</h5>
+<p>[WIP]</p>
+<h3 id="vistec-tp-th-21">VISTEC-TP-TH-21</h3>
+<p>The largest social media domain datasets for Thai text processing (word segmentation, misspell correction and detection, and named-entity boundary) called "VISTEC-TP-TH-2021" or VISTEC-2021.</p>
+<ul>
+<li>Number of words: 3.39M words</li>
+</ul>
+<p><strong>Details</strong></p>
+<ul>
+<li>Creator: VISTEC &amp; Chiang Mai University</li>
+<li>License: CC-BY-SA 3.0</li>
+<li>Paper: -</li>
+<li>Download: <a href="https://github.com/mrpeerat/OSKut/tree/main/VISTEC-TP-TH-2021">GitHub</a></li>
+</ul>
+<h2 id="software">Software</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Status</th>
+<th>Language</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://site.icu-project.org/home">ICU</a></td>
+<td>ICU - International Components for Unicode</td>
+<td>active</td>
+<td>C/C++/Java</td>
+<td>Unicode License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tlwg/libthai">libthai</a></td>
+<td>is a set of Thai language support routines aimed to ease developers' tasks to incorporate Thai language support in their applications.</td>
+<td>active</td>
+<td>C/C++</td>
+<td>LGPL-2.1 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tlwg/swath">SWATH</a></td>
+<td>Smart Word Analysis for THai</td>
+<td>active</td>
+<td>C/C++</td>
+<td>GPL-2.0 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/PyThaiNLP/attacut">AttaCut</a></td>
+<td>Fast and Reasonably Accurate Word Tokenizer for Thai.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/PyThaiNLP/pythainlp">PyThaiNLP</a></td>
+<td>It's part of PyThaiNLP.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/veer66/wordcutpy">PyWordCut</a></td>
+<td>wordcutpy is a simple Thai word breaker written in Python 3+</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>LGPLv3</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rkcosmos/deepcut">DeepCut</a></td>
+<td>A Thai word tokenization library using Deep Neural Network.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://pypi.org/project/tltk/">TLTK</a></td>
+<td>Thai Language Toolkit</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>BSD License (BSD-3-Clause)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thanabhat/KUCut">KUCut</a></td>
+<td>Thai word segmentor that is difference from existing segmentor such as CTTEX or SWATH.</td>
+<td>deactive</td>
+<td>Python 2.4-2.5</td>
+<td>GPL-2.0 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mrpeerat/SEFR_CUT">SEFR CUT</a></td>
+<td>Stacked Ensemble Filter and Refine for Word Segmentation</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pucktada/cutkum">CutKum</a></td>
+<td>Thai Word-Segmentation with LSTM in Tensorflow</td>
+<td>-</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/meanna/ThaiLMCUT">ThaiLMCut</a></td>
+<td>Word Tokenizer for Thai Language based on Transfer Learning and bidirectional-LSTM</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="http://www.sansarn.com/lexto/">LexTo</a></td>
+<td>Thai word segmentation ( Longest Matching )</td>
+<td>-</td>
+<td>Java</td>
+<td>LGPLv2.1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/sertiscorp/thai-word-segmentation">sertiscorp /thai-word-segmentation</a></td>
+<td>Thai word segmentation with bi-directional RNN</td>
+<td>-</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tlefsad/elasticsearch-analysis-thaichub2">Thai Analysis Plugin for Elasticsearch</a></td>
+<td>The Thaichub2 (thai-chub-chub) Analysis Plugin integrates the Thai word segmentation modules into Elasticsearch.</td>
+<td>active</td>
+<td>Java</td>
+<td>Apache-2.0 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/veer66/wordcut">Wordcut</a></td>
+<td>Thai word breaker for Node.js</td>
+<td>active</td>
+<td>JavaScript, Node.JS</td>
+<td>LGPLv3</td>
+</tr>
+<tr>
+<td><a href="https://github.com/wisesight/newmm-tokenizer">newmm-tokenizer</a></td>
+<td>Standalone Dictionary-based, Maximum Matching + Thai Character Cluster (newmm) tokenizer extracted from PyThaiNLP.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/stanfordnlp/stanza">Stanza</a></td>
+<td>Official Stanford NLP Python Library for Many Human Languages</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earthy123/Multi-Candidate-Word-Segmentation">Multi Candidate Thai Word Segmentation</a></td>
+<td>Most existing word segmentation methods output one single segmentation solution.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/veer66/PhlongTaIam">PhlongTaIam</a></td>
+<td>PHP Thai word breaker</td>
+<td>active</td>
+<td>PHP</td>
+<td>LGPL-2.1 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/veer66/chamkho">Chamkho</a></td>
+<td>Rust Thai word breaker</td>
+<td>active</td>
+<td>Rust</td>
+<td>LGPL-3 License</td>
+</tr>
+<tr>
+<td><a href="https://github.com/PyThaiNLP/oxidized-thainlp">oxidized-thainlp</a></td>
+<td>Thai Natural Language Processing in Rust, with Python-binding.</td>
+<td>active</td>
+<td>Python &amp; Rust</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mrpeerat/OSKut">OSKut</a></td>
+<td>Handling Cross- and Out-of-Domain Samples in Thai Word Segmentation (ACL 2021 Findings)<br/>Stacked Ensemble Framework and DeepCut as Baseline model</td>
+<td>active</td>
+<td>Python</td>
+<td>MIT License</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tools">Tools</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MudYom</td>
+<td>MudYom is a module for pre/post-processing text. It combines, aka มัด, words that should be together into one token. This process is done according to a user-defined dictionary.</td>
+<td></td>
+<td>Pattarawat Chormai</td>
+<td><a href="https://github.com/heytitle/mudyom">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../treebank/" class="btn btn-neutral" title="Treebank"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../treebank/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

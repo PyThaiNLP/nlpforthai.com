@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Machine Translation - NLP For Thai</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Machine Translation";
+    var mkdocs_page_input_path = "tasks/machine-translation.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> NLP For Thai</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../..">NLP For Thai</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../../other/">Other</a>
+  </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">Tasks</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../">Thai NLP Tasks</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../dependency-parser/">Dependency Parser</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../g2p/">Grapheme to Phoneme</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../image-captioning/">Image Captioning</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../language-model/">Language model</a>
+  </li>
+        
+          
+
+
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Machine Translation
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#corpus">Corpus</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#software">Software</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#pretrained">Pretrained</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ner/">Named Entity Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../nli/">Natural Language Inference</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ocr/">Optical Character Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../part-of-speech/">Part-of-speech tagging</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../plagiarism/">Plagiarism</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../question-answering/">Question Answering</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../sentence-segmentation/">Sentence Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ser/">Speech Emotion Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../soundex/">Soundex</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../speech-recognition/">Speech Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../speech-synthesis/">Speech Synthesis</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../spell-correct/">Spell Correct</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../syllable-segmentation/">Syllable Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-classification/">Text Classification</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-generation/">Text Generation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../text-summarization/">Text Summarization</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../treebank/">Treebank</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../word-segmentation/">Word Segmentation</a>
+  </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">NLP For Thai</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tasks &raquo;</li>
+        
+      
+    
+    <li>Machine Translation</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="machine-translation">Machine Translation</h1>
+<h2 id="corpus">Corpus</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TALPCo</td>
+<td>TUFS Asian Language Parallel Corpus</td>
+<td>1,327 sent</td>
+<td>CC BY 4.0</td>
+<td>Nomoto, Hiroki, Kenji Okano, Sunisa Wittayapanyanon and Junta Nomura</td>
+<td><a href="https://github.com/matbahasa/TALPCo">GitHub</a></td>
+</tr>
+<tr>
+<td>scb-mt-en-th-2020</td>
+<td>English-Thai Machine Translation Dataset with the collaboration between Vidyasirimedhi Institute of Science and Technology (VISTEC) and Digital Economy Promotion Agency (depa), publishes an open English-Thai machine translation dataset, with the sponsorship from Siam Commercial Bank (SCB)</td>
+<td>1,001,752 segment pairs</td>
+<td>CC BY-SA 4.0</td>
+<td>AI Research Institute of Thailand (AIResearch)</td>
+<td><a href="https://github.com/vistec-AI/dataset-releases/releases/tag/scb-mt-en-th-2020_v1.0">GitHub</a></td>
+</tr>
+<tr>
+<td>Software Documentation Data Set for Machine Translation</td>
+<td>A parallel evaluation data set of SAP software documentation with document structure annotation</td>
+<td>dev: 2048  segment pairs, test: 2050 segment pairs</td>
+<td>CC BY-NC 4.0</td>
+<td>SAP</td>
+<td><a href="https://github.com/SAP/software-documentation-data-set-for-machine-translation">GitHub</a></td>
+</tr>
+<tr>
+<td>Thai Lao Parallel corpus</td>
+<td>Thai Lao Parallel corpus</td>
+<td></td>
+<td>CC0-1.0 License</td>
+<td>Wannaphong Phatthiyaphaibun</td>
+<td><a href="https://github.com/PyThaiNLP/Thai-Lao-Parallel-Corpus">GitHub</a></td>
+</tr>
+<tr>
+<td>Contradictory, My Dear Watson Translated text</td>
+<td>Non-English text converted to English language</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://www.kaggle.com/narendrageek/my-dear-watson-translated-text/version/1">Kaggle</a></td>
+</tr>
+<tr>
+<td>Asian Language Treebank Parallel Corpus</td>
+<td>This is the Asian Language Treebank (ALT) Parallel Corpus.</td>
+<td>train: 1,698 articles, 18,088 sentences<br>dev: 98 articles, 1,000 sentences<br>test: 97 articles, 1,018 sentences</td>
+<td>CC BY 4.0</td>
+<td></td>
+<td><a href="https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/">Website</a></td>
+</tr>
+<tr>
+<td>WikiLingua</td>
+<td>A Multilingual Abstractive Summarization Dataset</td>
+<td>14,770 parallel (for thai)</td>
+<td>CC0-1.0 License</td>
+<td>Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown</td>
+<td><a href="https://github.com/esdurmus/Wikilingua">GitHub</a></td>
+</tr>
+<tr>
+<td>Web Inventory of Transcribed &amp; Translated(WIT) Ted Talks</td>
+<td>The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform.</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://huggingface.co/datasets/ted_talks_iwslt">Hugging Face</a></td>
+</tr>
+<tr>
+<td>generated_reviews_enth</td>
+<td>generated_reviews_enth is created as part of scb-mt-en-th-2020 for machine translation task.</td>
+<td></td>
+<td>CC BY-SA 4.0</td>
+<td>AI Research Institute of Thailand (AIResearch)</td>
+<td><a href="https://github.com/vistec-ai/generated_reviews_enth">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="software">Software</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Status</th>
+<th>Language</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/PyThaiNLP/pythainlp">PyThaiNLP</a></td>
+<td>It's part of PyThaiNLP.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pretrained">Pretrained</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Status</th>
+<th>Language</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.facebook.com/aibuildersx/posts/166736255494822">Lalita Chinese-Thai Machine Translation</a></td>
+<td>Chinese-Thai Machine Translation by AI Builder</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://airesearch.in.th/releases/machine-translation-models/">English-Thai Machine Translation Models</a></td>
+<td>English-Thai Machine Translation Models by VISTEC-depa Thailand Artificial Intelligence Research Institute</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ner/" class="btn btn-neutral float-right" title="Named Entity Recognition">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../language-model/" class="btn btn-neutral" title="Language model"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../language-model/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../ner/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

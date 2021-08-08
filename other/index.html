@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Other - NLP For Thai</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Other";
+    var mkdocs_page_input_path = "other.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> NLP For Thai</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="..">NLP For Thai</a>
+  </li>
+    
+      
+
+
+  
+    
+    <li class="navtree toctree-l1 page current">
+      <a class="current" href="./">
+        Other
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l1 current">
+    <ul class="subnav-l1 current">
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#dictionaries">Dictionaries</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#n-gram">N-gram</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#word-similarity">Word Similarity</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#thai-name">Thai Name</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#wordnet">WordNet</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#word-embeddings">Word embeddings</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#sentence-embedding">Sentence Embedding</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">Tasks</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/">Thai NLP Tasks</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/dependency-parser/">Dependency Parser</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/g2p/">Grapheme to Phoneme</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/image-captioning/">Image Captioning</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/language-model/">Language model</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/machine-translation/">Machine Translation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/ner/">Named Entity Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/nli/">Natural Language Inference</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/ocr/">Optical Character Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/part-of-speech/">Part-of-speech tagging</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/plagiarism/">Plagiarism</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/question-answering/">Question Answering</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/sentence-segmentation/">Sentence Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/ser/">Speech Emotion Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/soundex/">Soundex</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/speech-recognition/">Speech Recognition</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/speech-synthesis/">Speech Synthesis</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/spell-correct/">Spell Correct</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/syllable-segmentation/">Syllable Segmentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/text-classification/">Text Classification</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/text-generation/">Text Generation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/text-summarization/">Text Summarization</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/treebank/">Treebank</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../tasks/word-segmentation/">Word Segmentation</a>
+  </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">NLP For Thai</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Other</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="other">Other</h1>
+<p><a href="../">&lt;- back to homepage</a></p>
+<p><strong>Menu</strong></p>
+<ul>
+<li><a href="#dictionaries">Dictionaries</a></li>
+<li><a href="#n-gram">N-gram</a></li>
+<li><a href="#word-similarity">Word Similarity</a></li>
+<li><a href="#name">Name</a></li>
+<li><a href="#wordnet">WordNet</a></li>
+<li><a href="#word-embeddings">Word embeddings</a></li>
+<li><a href="#sentence-embedding">Sentence Embedding</a></li>
+</ul>
+<h2 id="dictionaries">Dictionaries</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LEXiTRON</td>
+<td>Thai&lt;-&gt;English Dictionary</td>
+<td>Thai-English 83,000 words</td>
+<td>CC BY-SA-NC 3.0</td>
+<td>NECTEC</td>
+<td><a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required)</td>
+</tr>
+<tr>
+<td>Yaitron</td>
+<td>Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine.</td>
+<td></td>
+<td>LEXiTRON License</td>
+<td>Vee Satayamas</td>
+<td><a href="https://github.com/veer66/Yaitron">GitHub</a></td>
+</tr>
+<tr>
+<td>Volubilis Dict - Thai-English-French</td>
+<td>VOLUBILIS - Thai English French Database</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://sourceforge.net/projects/belisan/">sourceforge</a></td>
+</tr>
+<tr>
+<td>Ground-truth bilingual dictionaries</td>
+<td>110 large-scale ground-truth bilingual dictionaries</td>
+<td>train 5000 word and  test 1500 word</td>
+<td></td>
+<td>Facebook Research</td>
+<td><a href="https://github.com/facebookresearch/MUSE">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#other">up to menu</a></p>
+<h2 id="n-gram">N-gram</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unigram from  OSCAR Corpus</td>
+<td>Unigram from  OSCAR Corpus</td>
+<td></td>
+<td></td>
+<td>Korakot Chaovavanich</td>
+<td><a href="https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/">Facebook</a></td>
+</tr>
+<tr>
+<td>TTC</td>
+<td>N-gram from Thai text book</td>
+<td>3,037,772 word</td>
+<td></td>
+<td></td>
+<td><a href="http://www.arts.chula.ac.th/~ling/TTC/">Website</a></td>
+</tr>
+<tr>
+<td>Thai National Corpus</td>
+<td>Thai National Corpus (Unigram, Bi-gram, Ti-gram)</td>
+<td></td>
+<td></td>
+<td>Faculty of Arts, Chulalongkorn University</td>
+<td><a href="http://www.arts.chula.ac.th/ling/tnc/searchtnc/">Website</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#other">up to menu</a></p>
+<h2 id="word-similarity">Word Similarity</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Word Similarity Datasets for Thai Language</td>
+<td>This repo contains translated and re-rated datasets for word similarity for Thai language.</td>
+<td></td>
+<td></td>
+<td>Ponrudee Netisopakul￼, Gerhard Wohlgenannt, Aleksei Pulich</td>
+<td><a href="https://github.com/gwohlgen/thai_word_similarity">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#other">up to menu</a></p>
+<h2 id="thai-name">Thai Name</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thai Male and Female Names Corpus</td>
+<td>The project contains Thai male, female, and family names, aimed for Thai language analysis.</td>
+<td>22,058 Name</td>
+<td>CC BY-SA 4.0</td>
+<td>Korkeat W.</td>
+<td><a href="https://github.com/korkeatw/thai-names-corpus">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#other">up to menu</a></p>
+<h2 id="wordnet">WordNet</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Size</th>
+<th>License</th>
+<th>Creator</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open Multilingual Wordnet</td>
+<td>The goal is to make it easy to use wordnets in multiple languages.</td>
+<td>81%</td>
+<td></td>
+<td></td>
+<td><a href="http://compling.hss.ntu.edu.sg/omw/">Website</a></td>
+</tr>
+<tr>
+<td>th-wn-sqlite</td>
+<td>Thai wordnet in SQLite</td>
+<td>-</td>
+<td></td>
+<td>Vee Satayamas</td>
+<td><a href="https://sourceforge.net/projects/thwnsqlite/">sourceforge</a></td>
+</tr>
+<tr>
+<td>ธนนท์ หลีน้อย 2008</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ธนนท์ หลีน้อย</td>
+<td><a href="http://pioneer.chula.ac.th/~awirote/Data-Dhannon.rar">Website</a></td>
+</tr>
+<tr>
+<td>ปริศนา อัครพุทธิพร Data 2008</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ปริศนา อัครพุทธิพร</td>
+<td><a href="http://pioneer.chula.ac.th/~awirote/Data-Prisana.rar">Website</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#other">up to menu</a></p>
+<h2 id="word-embeddings">Word embeddings</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ConceptNet Numberbatch</td>
+<td>ConceptNet Numberbatch is a set of semantic vectors (also known as word embeddings) than can be used directly as a representation of word meanings or as a starting point for further machine learning.</td>
+<td><a href="https://github.com/commonsense/conceptnet-numberbatch">GitHub</a></td>
+</tr>
+<tr>
+<td>FastText Word vectors</td>
+<td>The pre-trained word vectors for 157 languages, trained on Common Crawl and Wikipedia using fastText.</td>
+<td><a href="https://fasttext.cc/docs/en/crawl-vectors.html">Website</a></td>
+</tr>
+<tr>
+<td>Thai2Fit (old Thai2Vec)</td>
+<td></td>
+<td><a href="https://github.com/cstorm125/thai2fit">Homepage</a><br />Download word2vec:  <a href="https://github.com/PyThaiNLP/pythainlp-corpus/releases/tag/thai2fit_wv-v0.1">PyThaiNLP</a></td>
+</tr>
+<tr>
+<td>LTW2V: The Large Thai Word2Vec</td>
+<td><strong>LTW2V</strong> is The large Thai Word2Vec. It built with oxidized-thainlp from OSCAR Corpus (Open Super-large Crawled Aggregated coRpus).</td>
+<td><a href="https://github.com/PyThaiNLP/large-thaiword2vec">GitHub</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sentence-embedding">Sentence Embedding</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Detail</th>
+<th>Paper</th>
+<th>Owner</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LASER</td>
+<td>LASER Language-Agnostic SEntence Representations</td>
+<td><a href="https://arxiv.org/abs/1812.10464">Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond</a></td>
+<td>Facebook</td>
+<td><a href="https://github.com/facebookresearch/LASER">GitHub</a></td>
+</tr>
+<tr>
+<td>MUSE</td>
+<td>Multilingual Universal Sentence Encoderfor Semantic Retrieval</td>
+<td><a href="https://arxiv.org/abs/1907.04307">Multilingual Universal Sentence Encoder for Semantic Retrieval</a></td>
+<td>Google</td>
+<td><a href="https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3">Tensorflow Hub</a></td>
+</tr>
+<tr>
+<td>LaBSE</td>
+<td>Language-Agnostic BERT Sentence Embedding by Google AI.</td>
+<td><a href="https://arxiv.org/abs/2007.01852">Language-agnostic BERT Sentence Embedding</a></td>
+<td>Google</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../tasks/" class="btn btn-neutral float-right" title="Thai NLP Tasks">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="NLP For Thai"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../tasks/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
