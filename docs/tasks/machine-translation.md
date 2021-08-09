@@ -13,6 +13,7 @@
 | WikiLingua                                               | A Multilingual Abstractive Summarization Dataset             | 14,770 parallel (for thai)                                   | CC0-1.0 License | Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown | [GitHub](https://github.com/esdurmus/Wikilingua)             |
 | Web Inventory of Transcribed & Translated(WIT) Ted Talks | The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform. |                                                              |                 |                                                              | [Hugging Face](https://huggingface.co/datasets/ted_talks_iwslt) |
 | generated_reviews_enth                                   | generated_reviews_enth is created as part of scb-mt-en-th-2020 for machine translation task. |                                                              | CC BY-SA 4.0    | AI Research Institute of Thailand (AIResearch)               | [GitHub](https://github.com/vistec-ai/generated_reviews_enth) |
+| FLORES-101                                               | FLORES-101 is a Many-to-Many multilingual translation benchmark dataset for 101 languages. |                                                              |                 | Facebook                                                     | [GitHub](https://github.com/facebookresearch/flores)         |
 
 ## Software
 
