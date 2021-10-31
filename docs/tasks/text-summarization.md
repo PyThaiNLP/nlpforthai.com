@@ -2,10 +2,11 @@
 
 ## Corpus
 
-| Name    | Description                                      | Size                      | License     | Creator               | Download                                                  |
-| ------- | ------------------------------------------------ | ------------------------- | ----------- | --------------------- | --------------------------------------------------------- |
-| ThaiSum | The largest dataset for Thai text summarization. | 350,000 articles (2.9 GB) | MIT Licence | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
-| TR-TPBS | A dataset for Thai text summarization.           | 310K articles             | MIT License | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS) |
+| Name    | Description                                                  | Size                      | License         | Creator               | Download                                                  |
+| ------- | ------------------------------------------------------------ | ------------------------- | --------------- | --------------------- | --------------------------------------------------------- |
+| ThaiSum | The largest dataset for Thai text summarization.             | 350,000 articles (2.9 GB) | MIT Licence     | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/ThaiSum) |
+| TR-TPBS | A dataset for Thai text summarization.                       | 310K articles             | MIT License     | Nakhun Chumpolsathien | [GitHub](https://github.com/nakhunchumpolsathien/TR-TPBS) |
+| XL-Sum  | This dataset annotated article-summary pairs from BBC News and covers 45 languages ranging from low to high-resource. | 8,268 (for thai)          | CC BY-NC-SA 4.0 |                       | [GitHub](https://github.com/csebuetnlp/xl-sum)            |
 
 ## Pretrained
 
