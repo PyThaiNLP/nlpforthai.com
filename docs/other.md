@@ -14,12 +14,13 @@
 
 ## Dictionaries
 
-| Name                                 | Description                                                  | Size                                | License          | Creator           | Download                                                     |
-| ------------------------------------ | ------------------------------------------------------------ | ----------------------------------- | ---------------- | ----------------- | ------------------------------------------------------------ |
-| LEXiTRON                             | Thai<->English Dictionary                                    | Thai-English 83,000 words           | CC BY-SA-NC 3.0  | NECTEC            | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
-| Yaitron                              | Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine. |                                     | LEXiTRON License | Vee Satayamas     | [GitHub](https://github.com/veer66/Yaitron)                  |
-| Volubilis Dict - Thai-English-French | VOLUBILIS - Thai English French Database                     |                                     |                  |                   | [sourceforge](https://sourceforge.net/projects/belisan/)     |
-| Ground-truth bilingual dictionaries  | 110 large-scale ground-truth bilingual dictionaries          | train 5000 word and  test 1500 word |                  | Facebook Research | [GitHub](https://github.com/facebookresearch/MUSE)           |
+| Name                                 | Description                                                  | Size                                | License          | Creator                     | Download                                                     |
+| ------------------------------------ | ------------------------------------------------------------ | ----------------------------------- | ---------------- | --------------------------- | ------------------------------------------------------------ |
+| LEXiTRON                             | Thai<->English Dictionary                                    | Thai-English 83,000 words           | CC BY-SA-NC 3.0  | NECTEC                      | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Yaitron                              | Yaitron English-Thai and Thai-English dictionary based on LEXiTRON created since May 2006. An objective of Yaitron is to built a dictionary that is formatted in well formed XML and easy to be manipulated by machine. |                                     | LEXiTRON License | Vee Satayamas               | [GitHub](https://github.com/veer66/Yaitron)                  |
+| Volubilis Dict - Thai-English-French | VOLUBILIS - Thai English French Database                     |                                     |                  |                             | [sourceforge](https://sourceforge.net/projects/belisan/)     |
+| Ground-truth bilingual dictionaries  | 110 large-scale ground-truth bilingual dictionaries          | train 5000 word and  test 1500 word |                  | Facebook Research           | [GitHub](https://github.com/facebookresearch/MUSE)           |
+| Thai Wrong words dataset             |                                                              |                                     |                  | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/wannaphong/Thai_Wrong_words_dataset) |
 
 [up to menu](#other)
 
