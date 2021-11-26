@@ -2,10 +2,11 @@
 
 ## Corpus
 
-| Name                  | Description                                | Size                       | License         | Creator                 | Download                                                     |
-| --------------------- | ------------------------------------------ | -------------------------- | --------------- | ----------------------- | ------------------------------------------------------------ |
-| KVIS Thai OCR Dataset | Offline Thai Handwritten Character Dataset |                            | CC BY  4.0      | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1)   |
-| Thai OCR              | Thai ocr dataset from NECTEC               | Training set: 81,100 image | CC BY-SA-NC 3.0 | NECTEC                  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Name                            | Description                                | Size                       | License         | Creator                 | Download                                                     |
+| ------------------------------- | ------------------------------------------ | -------------------------- | --------------- | ----------------------- | ------------------------------------------------------------ |
+| KVIS Thai OCR Dataset           | Offline Thai Handwritten Character Dataset |                            | CC BY  4.0      | John Joseph, Ferdin Joe | [Website](https://data.mendeley.com/datasets/8nr3pbdk5c/1)   |
+| Thai OCR                        | Thai ocr dataset from NECTEC               | Training set: 81,100 image | CC BY-SA-NC 3.0 | NECTEC                  | [aiforthai](https://aiforthai.in.th/corpus.php) (registration required) |
+| Thai handwriting number dataset | Create Thai handwriting number dataset     |                            | MIT             | @kittinan               | [GitHub](https://github.com/kittinan/thai-handwriting-number) |
 
 ## Software
 
