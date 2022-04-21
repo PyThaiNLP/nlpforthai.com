@@ -22,5 +22,6 @@
 - [Plagiarism](./plagiarism)
 - [Treebank](./treebank)
 - [Natural Language Inference](./nli)
+- [Natural Language Understanding](./nlu)
 - [Image Captioning](./image-captioning)
 - [Spoken Language Understanding](./slu)
