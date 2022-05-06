@@ -15,7 +15,8 @@
 
 ## Software
 
-| Name                                                | Description             | Status | Language   | License                    |
-| --------------------------------------------------- | ----------------------- | ------ | ---------- | -------------------------- |
-| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP. | active | Python 3.X | Apache License 2.0         |
-| [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit   | active | Python 3.X | BSD License (BSD-3-Clause) |
+| Name                                                | Description                          | Status | Language   | License                    |
+| --------------------------------------------------- | ------------------------------------ | ------ | ---------- | -------------------------- |
+| [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP.              | active | Python 3.X | Apache License 2.0         |
+| [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit                | active | Python 3.X | BSD License (BSD-3-Clause) |
+| [Thai-NNER](https://github.com/vistec-AI/Thai-NNER) | Thai Nested Named Entity Recognition | active | Python 3.X | MIT License                |
