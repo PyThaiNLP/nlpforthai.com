@@ -10,6 +10,7 @@
 - [WordNet](#wordnet)
 - [Word embeddings](#word-embeddings)
 - [Sentence Embedding](#sentence-embedding)
+- [Glossary](#glossary)
 
 
 ## Dictionaries
@@ -80,3 +81,12 @@
 | LASER | LASER Language-Agnostic SEntence Representations             | [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond](https://arxiv.org/abs/1812.10464) | Facebook | [GitHub](https://github.com/facebookresearch/LASER)          |
 | MUSE  | Multilingual Universal Sentence Encoderfor Semantic Retrieval | [Multilingual Universal Sentence Encoder for Semantic Retrieval](https://arxiv.org/abs/1907.04307) | Google   | [Tensorflow Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) |
 | LaBSE | Language-Agnostic BERT Sentence Embedding by Google AI.      | [Language-agnostic BERT Sentence Embedding](https://arxiv.org/abs/2007.01852) | Google   |                                                              |
+
+## Glossary
+
+| Name                                         | Detail                                                     | Website                                                      |
+| -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Thai Glossary                                | Thai Glossary for Open Source Software by OpenTLE (backup) | [Website](http://glossary.in.th/)                            |
+| Glossary for Open Source Software by OpenTLE |                                                            | [Web archive](https://web.archive.org/web/20150331080933/http://www.opentle.org/ossglossary/index.php) |
+
+[up to menu](#other)
