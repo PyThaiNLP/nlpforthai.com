@@ -4,7 +4,7 @@
 
 | Name                | Description                              | Size        | License      | Creator                     | Download                                                     |
 | ------------------- | ---------------------------------------- | ----------- | ------------ | --------------------------- | ------------------------------------------------------------ |
-| Grapheme to Phoneme | Thai Grapheme to Phoneme from Wiktionary | 14,483 word | CC BY-SA 3.0 | Wannaphong Phatthiyaphaibun | [Facebook](https://www.facebook.com/groups/colab.thailand/permalink/1524070061101680/) |
+| Grapheme to Phoneme | Thai Grapheme to Phoneme from Wiktionary | 14,483 word | CC BY-SA 3.0 | Wannaphong Phatthiyaphaibun | [GitHub](https://github.com/PyThaiNLP/thai-g2p-wiktionary-corpus) |
 
 ## Software
 
