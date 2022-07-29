@@ -15,3 +15,4 @@
 | [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) | It's part of PyThaiNLP.                                  | active | Python 3.X | Apache License 2.0         |
 | [TLTK](https://pypi.org/project/tltk/)              | Thai Language Toolkit                                    | active | Python 3.X | BSD License (BSD-3-Clause) |
 | [BoydCut](https://github.com/BigDataRPG/BoydCut)    | Bidirectional LSTM-CNN Model for Thai Sentence Segmenter | active | Python 3.X | MIT License  
+| [ThaiSum](https://github.com/nakhunchumpolsathien/ThaiSum/blob/master/simple_thai_sentence_segmentation.py) | Simple Thai Sentence Segmentor | active | Python 3.X | Apache Licence 2.0 |
