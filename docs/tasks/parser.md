@@ -1,4 +1,4 @@
-# Dependency Parser
+# Parser
 
 ## Corpus
 
@@ -11,3 +11,4 @@
 | Name                                                      | Description                                                  | Status | Language   | License     |
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ----------- |
 | [spaCy-Thai](https://github.com/KoichiYasuoka/spaCy-Thai) | Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies. | active | Python 3.X | MIT License |
+| [Link Grammar Parser](https://github.com/kaamanita/link-grammar) | A syntactic parser based on link grammar | active | Python 3.X | LGPL |
