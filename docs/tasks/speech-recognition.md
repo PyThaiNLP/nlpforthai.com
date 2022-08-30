@@ -23,6 +23,9 @@
 | Name                       | Detail                                                     | Owner                                                        | Download                                                     |
 | -------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | wav2vec2-large-xlsr-53-th` | Finetuning wav2vec2-large-xlsr-53 on Thai Common Voice 7.0 | Artificial Intelligence Research Institute of Thailand (AIResearch.in.th) | [Hugging Face](https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th) |
+|  Thai Wav2Vec2 with CommonVoice V8 (newmm tokenizer) + language model  | This model trained with CommonVoice V8 dataset by increase data from CommonVoice V7 dataset that It was use in airesearch/wav2vec2-large-xlsr-53-th. It was finetune wav2vec2-large-xlsr-53.| Wannaphong Phatthiyaphaibun | [Hugging Face](https://huggingface.co/wannaphong/wav2vec2-large-xlsr-53-th-cv8-newmm) |
+|  Thai Wav2Vec2 with CommonVoice V8 (deepcut tokenizer) + language model   | This model trained with CommonVoice V8 dataset by increase data from CommonVoice V7 dataset that It was use in airesearch/wav2vec2-large-xlsr-53-th. It was finetune wav2vec2-large-xlsr-53.| Wannaphong Phatthiyaphaibun | [Hugging Face](https://huggingface.co/wannaphong/wav2vec2-large-xlsr-53-th-cv8-deepcut) |
+
 
 ## Language Identification
 
