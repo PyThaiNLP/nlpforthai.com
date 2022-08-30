@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Question Answering - NLP For Thai</title>
+  <title>Transliterate - NLP For Thai</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Question Answering";
-    var mkdocs_page_input_path = "tasks/question-answering.md";
+    var mkdocs_page_name = "Transliterate";
+    var mkdocs_page_input_path = "tasks/transliterate.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -161,37 +161,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        Question Answering
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#corpus">Corpus</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#software">Software</a>
-        </li>
-    
-    </ul>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../question-answering/">Question Answering</a>
   </li>
-
-
-  
         
           
 
@@ -273,9 +245,37 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../transliterate/">Transliterate</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Transliterate
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#corpus">Corpus</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#software">Software</a>
+        </li>
+    
+    </ul>
   </li>
+
+
+  
         
           
 
@@ -320,7 +320,7 @@
         
       
     
-    <li>Question Answering</li>
+    <li>Transliterate</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -330,7 +330,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="question-answering">Question Answering</h1>
+                <h1 id="transliterate">Transliterate</h1>
 <h2 id="corpus">Corpus</h2>
 <table>
 <thead>
@@ -345,52 +345,20 @@
 </thead>
 <tbody>
 <tr>
-<td>XQuAD</td>
-<td>XQuAD (Cross-lingual Question Answering Dataset) is a benchmark dataset for evaluating cross-lingual question answering performance.</td>
-<td>240 paragraphs and 1,190 question-answer pairs</td>
-<td>CC BY-SA  4.0</td>
-<td>DeepMind</td>
-<td><a href="https://github.com/deepmind/xquad">GitHub</a></td>
-</tr>
-<tr>
-<td>Thai QA</td>
-<td>Question answering program from Thai Wikipedia.</td>
-<td>4,000 question-answer pairs</td>
-<td>CC BY-SA-NC 3.0</td>
-<td>NECTEC</td>
-<td>Dataset: <a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required), wiki: <a href="http://www.copycatch.in.th/documents-nsc.tar.gz">copycatch</a>, Sample data set: <a href="http://www.copycatch.in.th/qa-output100.json">copycatch</a></td>
-</tr>
-<tr>
-<td>TyDi QA</td>
-<td>A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages</td>
-<td>200k human-annotated question-answer pairs</td>
-<td>Apache-2.0 License</td>
-<td>Google Research</td>
-<td><a href="https://github.com/google-research-datasets/tydiqa">GitHub</a></td>
-</tr>
-<tr>
-<td>iapp-wiki-qa-dataset</td>
-<td>Open Thai Wikipedia QA Dataset made by iApp Technology</td>
-<td>1,961 Documents<br/>9,170 Questions</td>
-<td>MIT License</td>
-<td>iApp Technology</td>
-<td><a href="https://github.com/iapp-technology/iapp-wiki-qa-dataset">GitHub</a></td>
-</tr>
-<tr>
-<td>MKQA</td>
-<td>MKQA: Multilingual Knowledge Questions &amp; Answers. MKQA contains 10,000 queries sampled from the Google Natural Questions dataset.</td>
-<td>10,000 queries</td>
+<td>Thai2Rom</td>
+<td>Thai Romanization Dataset</td>
 <td></td>
-<td>Apple</td>
-<td><a href="https://github.com/apple/ml-mkqa/">GitHub</a></td>
+<td>CC BY-SA 3.0</td>
+<td>Wannaphong Phatthiyaphaibun</td>
+<td><a href="https://www.kaggle.com/datasets/wannaphong/thai-romanization">kaggle</a></td>
 </tr>
 <tr>
-<td>Thai WIKI QA</td>
-<td>Dataset from National Software Contest (NSC) 2018 - 2019</td>
-<td>Factoid 15,000 question-answer pairs, boolean 2,000 question</td>
-<td>CC BY-SA-NC 3.0</td>
-<td>NECTEC</td>
-<td>Dataset: <a href="https://aiforthai.in.th/corpus.php">aiforthai</a></td>
+<td>Thai-English transliteration dictionary</td>
+<td>This project is Thai-English transliteration dictionary. It is store words for Thai-English transliteration pairs. Thai words are English words from English to Thai by transliteration in Thai.</td>
+<td></td>
+<td>CC-BY 4.0</td>
+<td>Wannaphong Phatthiyaphaibun</td>
+<td><a href="https://github.com/wannaphong/thai-english-transliteration-dictionary">GitHub</a></td>
 </tr>
 </tbody>
 </table>
@@ -399,17 +367,33 @@
 <thead>
 <tr>
 <th>Name</th>
-<th>Detail</th>
-<th>Owner</th>
-<th>Download</th>
+<th>Description</th>
+<th>Status</th>
+<th>Language</th>
+<th>License</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Zero-shot multilingual QA from DeepPavlov</td>
-<td>DeepPavlov is an open-source conversational AI library built on TensorFlow, Keras and PyTorch.</td>
-<td>Neural Networks and Deep Learning lab, MIPT</td>
-<td><a href="https://github.com/deepmipt/DeepPavlov">GitHub</a><br /><a href="https://colab.research.google.com/github/deepmipt/dp_tutorials/blob/master/Tutorial_2_DeepPavlov_BERT_transfer_learning.ipynb">Colab</a></td>
+<td><a href="https://github.com/PyThaiNLP/pythainlp">PyThaiNLP</a></td>
+<td>It's part of PyThaiNLP.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>Apache License 2.0</td>
+</tr>
+<tr>
+<td><a href="https://pypi.org/project/tltk/">TLTK</a></td>
+<td>Thai Language Toolkit</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>BSD License (BSD-3-Clause)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/cakimpei/wunsen">Wunsen</a></td>
+<td>Wunsen transliterates/transcribes from other languages into Thai.</td>
+<td>active</td>
+<td>Python 3.X</td>
+<td>MIT License</td>
 </tr>
 </tbody>
 </table>
@@ -420,10 +404,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../sentence-segmentation/" class="btn btn-neutral float-right" title="Sentence Segmentation">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../treebank/" class="btn btn-neutral float-right" title="Treebank">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../plagiarism/" class="btn btn-neutral" title="Plagiarism"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../text-summarization/" class="btn btn-neutral" title="Text Summarization"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -449,10 +433,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../plagiarism/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../text-summarization/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../sentence-segmentation/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../treebank/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
