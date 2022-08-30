@@ -12,3 +12,4 @@
 | Name                                                      | Description                                                  | Status | Language   | License            |
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
 | [Thai TTS Tacotron](https://github.com/Prim9000/Thai_TTS) | Thai_TTS is the project about training "Text to Speech in Thai" using Tacotron2 by NVIDIA. | active | Python 3.X | Apache License 2.0 |
+| [PyThaiTTS](https://github.com/pyThaiNLP/pythaitts) | Open Source Thai Text-to-speech library in Python  | active | Python 3.X | Apache License 2.0 |
