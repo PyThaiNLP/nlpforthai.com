@@ -13,6 +13,7 @@
 - [Speech Recognition](./speech-recognition)
 - [Speech Synthesis](./speech-synthesis)
 - [Speech Emotion Recognition](./ser)
+- [Speech-to-text translation](./speech2text-translation)
 - [Optical Character Recognition](./ocr)
 - [Machine Translation](./machine-translation)
 - [Dependency Parser](./dependency-parser)
