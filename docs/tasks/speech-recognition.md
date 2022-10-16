@@ -12,6 +12,8 @@
 | Lotus BN            | Thai News Speech Recognition corpus from NECTEC (not full corpus) | 28 minute         | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/LOTUS-BN.zip) |
 | Lotus Cell          | Thai Speech corpus over the phone. (not full corpus)         | 11 hours          | CC BY-SA-NC 3.0 | NECTEC                                                       | [Mirror from @korakot: GitHub](https://github.com/korakot/corpus/releases/download/v1.0/LOTUS-cell-v1.0.zip) |
 | Thai Elderly Speech dataset by Data Wow and VISAI          | Thai Elderly Speech dataset, consisting of 17 hours 11 minutes (19,200 files). The files are divided into 2 categories: Health care (health issues and services) and Smart Home (using Smart Home devices in household contexts).         | 17 hours 11 minutes          | CC BY-SA 4.0 | VISAI AI Company Limited and Data Wow Company Limited                                                       | [VISAI AI Company Limited and Data Wow Company Limited](https://github.com/VISAI-DATAWOW/Thai-Elderly-Speech-dataset/releases/tag/v1.0.0) |
+| FLEURS            | Fleurs is the speech version of the FLoRes machine translation benchmark. We use 2009 n-way parallel sentences from the FLoRes dev and devtest publicly available sets, in 102 languages.  |                            | CC BY      | Google | [huggingface](https://huggingface.co/datasets/google/fleurs)   |
+
 
 ### Software
 
@@ -26,6 +28,7 @@
 | wav2vec2-large-xlsr-53-th` | Finetuning wav2vec2-large-xlsr-53 on Thai Common Voice 7.0 | Artificial Intelligence Research Institute of Thailand (AIResearch.in.th) | [Hugging Face](https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th) |
 |  Thai Wav2Vec2 with CommonVoice V8 (newmm tokenizer) + language model  | This model trained with CommonVoice V8 dataset by increase data from CommonVoice V7 dataset that It was use in airesearch/wav2vec2-large-xlsr-53-th. It was finetune wav2vec2-large-xlsr-53.| Wannaphong Phatthiyaphaibun | [Hugging Face](https://huggingface.co/wannaphong/wav2vec2-large-xlsr-53-th-cv8-newmm) |
 |  Thai Wav2Vec2 with CommonVoice V8 (deepcut tokenizer) + language model   | This model trained with CommonVoice V8 dataset by increase data from CommonVoice V7 dataset that It was use in airesearch/wav2vec2-large-xlsr-53-th. It was finetune wav2vec2-large-xlsr-53.| Wannaphong Phatthiyaphaibun | [Hugging Face](https://huggingface.co/wannaphong/wav2vec2-large-xlsr-53-th-cv8-deepcut) |
+| Whisper | Whisper is a general-purpose speech recognition model. (include S2T X->English) | OpenAI | [GitHub](https://github.com/openai/whisper) |
 
 
 ## Language Identification
