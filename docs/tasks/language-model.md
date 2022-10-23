@@ -16,6 +16,7 @@
 | OSCAR Corpus                                                 | OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture. | 951,743,087 words                                            | public domain   |                             | [Homepage](https://oscar-corpus.com/)                        |
 | mC4                                                          | A multilingual colossal, cleaned version of Common Crawl's web crawl corpus. |                                                              |                 |                             | [Hugging Face](https://huggingface.co/datasets/mc4)          |
 | Multilingual Open Text 1.0: Public Domain News in 44 Languages | This is a corpus of public domain news in 44 languages.      |                                                              | public domain   |                             | [GitHub](https://github.com/bltlab/mot/releases/tag/v1.0)    |
+| Thai depression detection dataset and baseline models | Detecting Depression in Thai Blog Posts: a Dataset and a Baseline.      |                                                              | |                             | [Zenodo](https://zenodo.org/record/4734552)    |
 
 ## Preatrained
 
