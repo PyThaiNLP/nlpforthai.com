@@ -1,3 +1,6 @@
 site_name: NLP For Thai
 theme:
   name: 'rtd-dropdown'
+# Configuration
+extra_css:
+    - 'css/extra.css'
