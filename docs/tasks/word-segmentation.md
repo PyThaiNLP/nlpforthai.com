@@ -33,18 +33,17 @@ BEST I is the Benchmark for Enhancing the Standard of Thai language processing.
 We are not  benchmarks for this corpus because we have not an answer of testset.
 
 
-### LST20 Corpus
+### Blackboard Treebank
 
-LST20 Corpus is a large-scale corpus with multiple layers of linguistic annotation for Thai language processing.
+Blackboard Treebank is a Thai dependency corpus based on the LST20 Annotation Guideline. It features dependency structures, constituency structures, word boundaries, named entities, clause boundaries, and sentence boundaries.
 
-- Number of words: 3,164,864 words
+- 122,851 clauses (38,558 sentences)
 
 **Details**
 
 - Creator: NECTEC
-- License: (Free for research and open source only)
-- Paper: [The Annotation Guideline of LST20 Corpus](https://arxiv.org/abs/2008.05055)
-- Download: [aiforthai](https://aiforthai.in.th/corpus.php) (registration required)
+- License: CC-BY 3.0
+- Download: [bitbucket](https://bitbucket.org/kaamanita/blackboard-treebank/)
 
 ##### Benchmarks
 
