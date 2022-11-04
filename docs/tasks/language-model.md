@@ -28,6 +28,7 @@
 | bert-base-th-cased            | We are sharing smaller versions of bert-base-multilingual-cased that handle a custom number of languages. | Geotrend                                       | [Hugging Face](https://huggingface.co/Geotrend/bert-base-th-cased) |
 | WangchanBERTa                 | Pretraining transformer-based Thai Language Models           | AI Research Institute of Thailand (AIResearch) | [GitHub](https://github.com/vistec-AI/thai2transformers) & [Hugging Face](https://huggingface.co/airesearch) |
 | mLUKE                 | A multilingual extension of LUKE.           | | [Hugging Face](https://huggingface.co/studio-ousia/mluke-base) |
+| TwHIN-BERT | TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for Multilingual Tweet Representations | Twitter                                         | [GitHub](https://github.com/xinyangz/TwHIN-BERT)            |
 
 ### Notebook
 
