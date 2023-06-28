@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Optical Character Recognition - NLP For Thai</title>
+  <title>Chatbot - NLP For Thai</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Optical Character Recognition";
-    var mkdocs_page_input_path = "tasks/ocr.md";
+    var mkdocs_page_name = "Chatbot";
+    var mkdocs_page_input_path = "tasks/chatbot.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -85,9 +85,32 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../chatbot/">Chatbot</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Chatbot
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#model">Model</a>
+        </li>
+    
+    </ul>
   </li>
+
+
+  
         
           
 
@@ -148,37 +171,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        Optical Character Recognition
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#corpus">Corpus</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#software">Software</a>
-        </li>
-    
-    </ul>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ocr/">Optical Character Recognition</a>
   </li>
-
-
-  
         
           
 
@@ -349,7 +344,7 @@
         
       
     
-    <li>Optical Character Recognition</li>
+    <li>Chatbot</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -359,8 +354,8 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="optical-character-recognition">Optical Character Recognition</h1>
-<h2 id="corpus">Corpus</h2>
+                <h1 id="chatbot">Chatbot</h1>
+<h2 id="model">Model</h2>
 <table>
 <thead>
 <tr>
@@ -374,63 +369,12 @@
 </thead>
 <tbody>
 <tr>
-<td>KVIS Thai OCR Dataset</td>
-<td>Offline Thai Handwritten Character Dataset</td>
-<td></td>
-<td>CC BY  4.0</td>
-<td>John Joseph, Ferdin Joe</td>
-<td><a href="https://data.mendeley.com/datasets/8nr3pbdk5c/1">Website</a></td>
-</tr>
-<tr>
-<td>Thai OCR</td>
-<td>Thai ocr dataset from NECTEC</td>
-<td>Training set: 81,100 image</td>
-<td>CC BY-SA-NC 3.0</td>
-<td>NECTEC</td>
-<td><a href="https://aiforthai.in.th/corpus.php">aiforthai</a> (registration required)</td>
-</tr>
-<tr>
-<td>Thai handwriting number dataset</td>
-<td>Create Thai handwriting number dataset</td>
-<td></td>
-<td>MIT</td>
-<td>@kittinan</td>
-<td><a href="https://github.com/kittinan/thai-handwriting-number">GitHub</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="software">Software</h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-<th>Status</th>
-<th>Language</th>
-<th>License</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/tesseract-ocr/tesseract">Tesseract OCR</a></td>
-<td>Tesseract Open Source OCR Engine</td>
-<td>active</td>
-<td>C/C++</td>
-<td>Apache License 2.0</td>
-</tr>
-<tr>
-<td><a href="https://github.com/JaidedAI/EasyOCR">Easy OCR</a></td>
-<td>Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai.</td>
-<td>active</td>
-<td>Python 3.X</td>
-<td>Apache License 2.0</td>
-</tr>
-<tr>
-<td><a href="https://github.com/copninich/TH-National-Document-OCR/">Thai National Document Optical Character Recognition (THND OCR)</a></td>
-<td>Tesseract OCR tools for read Thai National Document used TH Sarabun National Font trained and fine-tuned. Read README.md to see about my process.</td>
-<td>active</td>
-<td>Python 3.X</td>
-<td></td>
+<td>WangChanGLM</td>
+<td>WangChanGLM elephant - The Multilingual Instruction-Following Model</td>
+<td>57.5B</td>
+<td>CC BY-SA 4.0</td>
+<td>VISTEC-depa AI Research Institute of Thailand &amp; PyThaiNLP</td>
+<td><a href="https://github.com/PyThaiNLP/WangChanGLM">GitHub</a></td>
 </tr>
 </tbody>
 </table>
@@ -441,10 +385,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../parser/" class="btn btn-neutral float-right" title="Parser">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../dependency_parser/" class="btn btn-neutral float-right" title="Dependency Parser">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../nlu/" class="btn btn-neutral" title="Natural Language Understanding"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../" class="btn btn-neutral" title="Thai NLP Tasks"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -470,10 +414,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../nlu/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../parser/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../dependency_parser/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
