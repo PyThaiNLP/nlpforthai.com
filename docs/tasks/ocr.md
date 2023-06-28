@@ -14,3 +14,4 @@
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------ | ---------- | ------------------ |
 | [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) | Tesseract Open Source OCR Engine                             | active | C/C++      | Apache License 2.0 |
 | [Easy OCR](https://github.com/JaidedAI/EasyOCR)             | Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai. | active | Python 3.X | Apache License 2.0 |
+| [Thai National Document Optical Character Recognition (THND OCR)](https://github.com/copninich/TH-National-Document-OCR/)             | Tesseract OCR tools for read Thai National Document used TH Sarabun National Font trained and fine-tuned. Read README.md to see about my process.  | active | Python 3.X | |
