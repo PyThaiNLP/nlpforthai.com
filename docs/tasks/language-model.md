@@ -33,3 +33,12 @@
 ### Notebook
 
 - [Load BERT-th, BERT-Base, Multilingual Cased and bert-base-th-cased with Hugging Face in Python](https://colab.research.google.com/drive/1BQ24QBflQujSsi7qjhGfmHn6H_thZvfb?usp=sharing)
+
+## LLMs
+
+| Name    | Parameters  |  Detail   |  Owner  |  Download  |
+| ------- | ----------- | --------- | ------- | ---------- |
+| OpenThaiGPT | 13B     |           | Kobkrit | [GitHub](https://github.com/OpenThaiGPT/openthaigpt) |
+| SeaLLMs |     13B     |           | DAMO    | [GitHub](https://github.com/DAMO-NLP-SG/SeaLLMs) |
+| Sea-Lion |   7.5B     |           | AI Singapore | [GitHub](https://github.com/aisingapore/sealion) |
+| PhayaThaiBERT | 278M  |           | P. Sriwirote | [Hugging Face](https://huggingface.co/clicknext/phayathaibert) |
