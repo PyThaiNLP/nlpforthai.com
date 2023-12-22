@@ -39,6 +39,7 @@
 | Name    | Parameters  |  Detail   |  Owner  |  Download  |
 | ------- | ----------- | --------- | ------- | ---------- |
 | OpenThaiGPT | 13B     |           | Kobkrit | [GitHub](https://github.com/OpenThaiGPT/openthaigpt) |
+| Typhoon |      7B     |           | SCB10X  | [Hugging Face](https://huggingface.co/scb10x/typhoon-7b) |
 | SeaLLMs |     13B     |           | DAMO    | [GitHub](https://github.com/DAMO-NLP-SG/SeaLLMs) |
 | Sea-Lion |   7.5B     |           | AI Singapore | [GitHub](https://github.com/aisingapore/sealion) |
 | PhayaThaiBERT | 278M  |           | P. Sriwirote | [Hugging Face](https://huggingface.co/clicknext/phayathaibert) |
