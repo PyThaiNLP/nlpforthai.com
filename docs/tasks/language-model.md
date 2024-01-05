@@ -18,7 +18,7 @@
 | Multilingual Open Text 1.0: Public Domain News in 44 Languages | This is a corpus of public domain news in 44 languages.      |                                                              | public domain   |                             | [GitHub](https://github.com/bltlab/mot/releases/tag/v1.0)    |
 | Thai depression detection dataset and baseline models | Detecting Depression in Thai Blog Posts: a Dataset and a Baseline.      |                                                              | |                             | [Zenodo](https://zenodo.org/record/4734552)    |
 
-## Preatrained
+## Enocder Preatrained
 
 | Name                          | Detail                                                       | Owner                                          | Download                                                     |
 | ----------------------------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -29,6 +29,7 @@
 | WangchanBERTa                 | Pretraining transformer-based Thai Language Models           | AI Research Institute of Thailand (AIResearch) | [GitHub](https://github.com/vistec-AI/thai2transformers) & [Hugging Face](https://huggingface.co/airesearch) |
 | mLUKE                 | A multilingual extension of LUKE.           | | [Hugging Face](https://huggingface.co/studio-ousia/mluke-base) |
 | TwHIN-BERT | TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for Multilingual Tweet Representations | Twitter                                         | [GitHub](https://github.com/xinyangz/TwHIN-BERT)            |
+| PhayaThaiBERT | 278M  |           | P. Sriwirote | [Hugging Face](https://huggingface.co/clicknext/phayathaibert) |
 
 ### Notebook
 
@@ -42,4 +43,5 @@
 | Typhoon |      7B     |           | SCB10X  | [Hugging Face](https://huggingface.co/scb10x/typhoon-7b) |
 | SeaLLMs |     13B     |           | DAMO    | [GitHub](https://github.com/DAMO-NLP-SG/SeaLLMs) |
 | Sea-Lion |   7.5B     |           | AI Singapore | [GitHub](https://github.com/aisingapore/sealion) |
-| PhayaThaiBERT | 278M  |           | P. Sriwirote | [Hugging Face](https://huggingface.co/clicknext/phayathaibert) |
+| WangChanGLM | 7.5B    |           | VISTEC-PyThaiNLP | [GitHub](https://github.com/PyThaiNLP/WangChanGLM) |
+
