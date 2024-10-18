@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Parser - NLP For Thai</title>
+  <title>Coreference resolution - NLP For Thai</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Parser";
-    var mkdocs_page_input_path = "tasks/parser.md";
+    var mkdocs_page_name = "Coreference resolution";
+    var mkdocs_page_input_path = "tasks/coreference-resolution.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -92,9 +92,32 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../coreference-resolution/">Coreference resolution</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Coreference resolution
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#corpus">Corpus</a>
+        </li>
+    
+    </ul>
   </li>
+
+
+  
         
           
 
@@ -162,37 +185,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        Parser
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#corpus">Corpus</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#software">Software</a>
-        </li>
-    
-    </ul>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../parser/">Parser</a>
   </li>
-
-
-  
         
           
 
@@ -356,7 +351,7 @@
         
       
     
-    <li>Parser</li>
+    <li>Coreference resolution</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -366,7 +361,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="parser">Parser</h1>
+                <h1 id="coreference-resolution">Coreference resolution</h1>
 <h2 id="corpus">Corpus</h2>
 <table>
 <thead>
@@ -381,56 +376,28 @@
 </thead>
 <tbody>
 <tr>
-<td>UD Thai PUD</td>
-<td>This is a part of the Parallel Universal Dependencies (PUD) treebanks created for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies.</td>
-<td>1,000 sentences</td>
-<td>CC BY-SA 3.0</td>
-<td>Universal Dependencies</td>
-<td><a href="https://github.com/UniversalDependencies/UD_Thai-PUD">GitHub</a></td>
+<td>Han-Coref</td>
+<td>🪿 Han-Coref: Thai Coreference resolution by PyThaiNLP</td>
+<td>1,338 documents</td>
+<td>CC BY 3.0</td>
+<td>PyThaiNLP</td>
+<td><a href="https://github.com/PyThaiNLP/han-coref">GitHub</a></td>
 </tr>
 <tr>
-<td>Thai Discourse Treebank</td>
-<td>The Thai Discourse Treebank (TDTB) at Chulalongkorn University annotates 180 documents from the LST20 corpus with 10,868 discourse relations.</td>
-<td>6,534 sentences</td>
+<td>ThaiCoref</td>
+<td>ThaiCoref, a dataset for Thai coreference resolution. Our dataset comprises 777,271 tokens, 44,082 mentions and 10,429 entities across four text genres: university essays, newspapers, speeches, and Wikipedia.</td>
 <td></td>
-<td>Prasertsom, P., Jaroonpol, A., &amp; Rutherford, A. T.</td>
-<td><a href="https://github.com/nlp-chula/thai-discourse-treebank">Github</a></td>
-</tr>
-<tr>
-<td>TUD Treebank</td>
-<td>Thai Universal Dependency Treebank, annotating TNC</td>
-<td>3,627 sentences</td>
 <td></td>
-<td>nlp-chula</td>
-<td><a href="https://github.com/nlp-chula/TUD">Github</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="software">Software</h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-<th>Status</th>
-<th>Language</th>
-<th>License</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/KoichiYasuoka/spaCy-Thai">spaCy-Thai</a></td>
-<td>Tokenizer, POS-tagger, and dependency-parser for Thai language, working on Universal Dependencies.</td>
-<td>active</td>
-<td>Python 3.X</td>
-<td>MIT License</td>
+<td>Chulalongkorn University</td>
+<td><a href="https://github.com/nlp-chula/thai-coref">GitHub</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/kaamanita/link-grammar">Link Grammar Parser</a></td>
-<td>A syntactic parser based on link grammar</td>
-<td>active</td>
-<td>Python 3.X</td>
-<td>LGPL</td>
+<td>Z-coref</td>
+<td>Z-coref: Thai Coreference and Zero Pronoun Resolution</td>
+<td>1,338 documents</td>
+<td>Apache-2.0 license</td>
+<td>Poomphob Suwannapichat and Sansiri Tarnpradab and Santitham Prom-on</td>
+<td><a href="https://github.com/psuwannapich/z-coref">GitHub</a></td>
 </tr>
 </tbody>
 </table>
@@ -441,10 +408,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../part-of-speech/" class="btn btn-neutral float-right" title="Part-of-speech tagging">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../dependency_parser/" class="btn btn-neutral float-right" title="Dependency Parser">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../ocr/" class="btn btn-neutral" title="Optical Character Recognition"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../chatbot/" class="btn btn-neutral" title="Chatbot"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -470,10 +437,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../ocr/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../chatbot/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../part-of-speech/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../dependency_parser/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
