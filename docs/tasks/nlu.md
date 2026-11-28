@@ -6,3 +6,9 @@
 | ------- | ------------------------------------------------------------ | ----------------------------- | --------- | ------- | ------------------------------------------ |
 | MASSIVE | MASSIVE is a parallel dataset of > 1M utterances across 51 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation. Utterances span 60 intents and include 55 slot types. MASSIVE was created by localizing the SLURP dataset, composed of general Intelligent Voice Assistant single-shot interactions. | ~1M utterances , 51 languages | CC BY 4.0 | Amazon  | [GitHub](https://github.com/alexa/massive) |
 | Thai Winograd |  A collection of Winograd Schemas in the Thai language. These schemas are adapted from the original set of English Winograd Schemas proposed by Levesque et al., which was based on Ernest Davis's collection. A Winograd schema is a pair of sentences that differ by only a word or two. They include ambiguities that are resolved differently in each sentence and require world knowledge and reasoning to understand. This concept is named after Terry Winograd, who provided a well-known example. | 285 questions | CC BY 4.0 | Phakphum Artkaew  | [Hugging Face](https://huggingface.co/datasets/pakphum/winograd_th) |
+
+## Software
+
+| Name | Description | Status | Language | License |
+| ---- | ----------- | ------ | -------- | ------- |
+| [TER-AI intent router](https://github.com/klanarongz2009-sketch/ter-ai) | Offline, typo-tolerant intent classification for Thai and Thai-English messages (15 intents). 1.1 MB, CPU-only, no runtime dependencies. Reports 97.6% on its frozen 124-sentence test set. | active | Python 3.11+ | MIT |
